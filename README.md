@@ -1,5 +1,5 @@
 
-  # Modernizar site existente
+  # CoffeePlay
 
   This is a code bundle for Modernizar site existente. The original project is available at https://www.figma.com/design/Tgw0IP1BhG0UYqIEKIxLy4/Modernizar-site-existente.
 
