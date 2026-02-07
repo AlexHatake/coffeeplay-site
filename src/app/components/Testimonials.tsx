@@ -10,49 +10,35 @@ const settings = {
   infinite: true,
   speed: 500,
 
-  slidesToShow: 1,        // ✅ MOBILE FIRST
+  // ✅ MOBILE FIRST
+  slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 4000,
 
-  arrows: false,          // ✅ sem setas no mobile
+  arrows: false,          // sem setas no mobile
   centerMode: false,
   variableWidth: false,
-  adaptiveHeight: true,   // ✅ evita corte de texto
+  adaptiveHeight: true,  // evita cortar texto
 
   responsive: [
     {
-      breakpoint: 768,    // tablets pra cima
+      breakpoint: 768, // tablets
       settings: {
         slidesToShow: 2,
         arrows: true
       }
     },
     {
-      breakpoint: 1280,   // desktop
+      breakpoint: 1280, // desktop
       settings: {
         slidesToShow: 3,
         arrows: true
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 640, // Mobile specific
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          dots: true,
-          centerMode: false, // Ensure no overlap
-          variableWidth: false, // Ensure full width usage for centering
-        }
       }
-    ]
-  };
+    }
+  ]
+};
+
 
   const testimonials = [
     { 
