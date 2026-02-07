@@ -5,16 +5,34 @@ import "slick-carousel/slick/slick-theme.css";
 import { Star } from "lucide-react";
 
 export const Testimonials = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    arrows: true,
-    responsive: [
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+
+  slidesToShow: 1,        // ✅ MOBILE FIRST
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+
+  arrows: false,          // ✅ sem setas no mobile
+  centerMode: false,
+  variableWidth: false,
+  adaptiveHeight: true,   // ✅ evita corte de texto
+
+  responsive: [
+    {
+      breakpoint: 768,    // tablets pra cima
+      settings: {
+        slidesToShow: 2,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: 1280,   // desktop
+      settings: {
+        slidesToShow: 3,
+        arrows: true
       {
         breakpoint: 1024,
         settings: {
