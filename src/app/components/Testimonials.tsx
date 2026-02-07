@@ -137,17 +137,19 @@ export const Testimonials = () => {
                         - leading-relaxed (aprox 1.625) ou custom style
                         - break-words para evitar overflow, mas break-normal para fluxo comum
                     */}
-                    <p 
-                      className="text-gray-700 mb-6 italic font-medium"
-                      style={{
-                        fontSize: '16px',
-                        lineHeight: '1.4',
-                        overflowWrap: 'break-word',
-                        wordBreak: 'normal'
-                      }}
-                    >
-                      "{t.text}"
-                    </p>
+                    <p
+  className="text-gray-700 mb-6 italic font-medium"
+  style={{
+    fontSize: '16px',
+    lineHeight: '1.4',
+    wordBreak: 'normal',
+    overflowWrap: 'anywhere',
+    whiteSpace: 'normal'
+  }}
+>
+  “{t.text}”
+</p>
+  
 
                     {/* Avatar e Nome */}
                     <div className="flex flex-col items-center gap-2 mt-auto">
