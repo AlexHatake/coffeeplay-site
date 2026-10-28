@@ -1,5 +1,7 @@
 import React from "react";
-import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Instagram, Facebook, Mail, Phone } from "lucide-react";
+import { EMAIL, LOGIN_URL, PHONE_DISPLAY, WHATSAPP_SUPPORT } from "../content/site";
 
 export const Footer = () => {
   return (
@@ -20,11 +22,16 @@ export const Footer = () => {
         <div>
           <h4 className="text-white font-bold text-lg mb-6">Links Úteis</h4>
           <ul className="space-y-3 text-gray-400 text-sm">
-            <li><a href="#" className="hover:text-[#C67C2E] transition-colors">Início</a></li>
-            <li><a href="#planos" className="hover:text-[#C67C2E] transition-colors">Planos</a></li>
-            <li><a href="#dispositivos" className="hover:text-[#C67C2E] transition-colors">Dispositivos</a></li>
-            <li><a href="#faq" className="hover:text-[#C67C2E] transition-colors">Ajuda</a></li>
-            <li><a href="https://coffeeplay.tv/login" className="hover:text-[#C67C2E] transition-colors">Central do Assinante</a></li>
+            <li><Link to="/" className="hover:text-[#C67C2E] transition-colors">Início</Link></li>
+            <li><Link to="/planos" className="hover:text-[#C67C2E] transition-colors">Planos</Link></li>
+            <li><Link to="/instalacao" className="hover:text-[#C67C2E] transition-colors">Dispositivos</Link></li>
+            <li><Link to="/instalacao/smart-tv" className="hover:text-[#C67C2E] transition-colors">Smart TV</Link></li>
+            <li><Link to="/instalacao/android-tv-box" className="hover:text-[#C67C2E] transition-colors">Android e TV Box</Link></li>
+            <li><Link to="/instalacao/fire-stick" className="hover:text-[#C67C2E] transition-colors">Fire Stick</Link></li>
+            <li><Link to="/instalacao/celular" className="hover:text-[#C67C2E] transition-colors">Celular</Link></li>
+            <li><Link to="/instalacao/pc" className="hover:text-[#C67C2E] transition-colors">Computador</Link></li>
+            <li><Link to="/faq" className="hover:text-[#C67C2E] transition-colors">Ajuda</Link></li>
+            <li><a href={LOGIN_URL} className="hover:text-[#C67C2E] transition-colors">Central do Assinante</a></li>
           </ul>
         </div>
 
@@ -33,11 +40,11 @@ export const Footer = () => {
           <ul className="space-y-4 text-gray-400 text-sm">
             <li className="flex items-center gap-3">
               <Phone size={16} className="text-[#25D366]" />
-              <a href="https://wa.me/5521987998271" target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition-colors">(21) 98799-8271</a>
+              <a href={WHATSAPP_SUPPORT} target="_blank" rel="noopener noreferrer" className="hover:text-[#25D366] transition-colors">{PHONE_DISPLAY}</a>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-[#C67C2E]" />
-              <a href="mailto:coffeeplayy@gmail.com" className="hover:text-[#C67C2E] transition-colors">coffeeplayy@gmail.com</a>
+              <a href={`mailto:${EMAIL}`} className="hover:text-[#C67C2E] transition-colors">{EMAIL}</a>
             </li>
             <li className="mt-4 pt-4 border-t border-white/10 text-xs text-gray-500">
               <p>Segunda a Segunda: 24 horas</p>

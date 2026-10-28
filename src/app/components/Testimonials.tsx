@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import "../../styles/testimonials.css";
 import { Star } from "lucide-react";
 
 export const Testimonials = () => {
@@ -94,7 +95,7 @@ const settings = {
   ];
 
   return (
-    <section id="depoimentos" className="py-16 md:py-24 bg-[#FFF8F0] overflow-hidden">
+    <section id="depoimentos" className="py-16 md:py-24 bg-[#FFF8F0] overflow-hidden scroll-mt-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">
@@ -181,33 +182,6 @@ const settings = {
           </Slider>
         </div>
       </div>
-
-      <style>{`
-        /* Customização dos Dots para Mobile */
-        .slick-dots {
-          bottom: -35px;
-        }
-        .slick-dots li {
-          margin: 0 4px;
-        }
-        .slick-dots li button:before {
-          font-size: 10px;
-          color: #E5E7EB; /* Cinza claro */
-          opacity: 1;
-        }
-        .slick-dots li.slick-active button:before {
-          color: #C67C2E !important; /* Laranja da marca */
-          opacity: 1;
-        }
-        
-        /* Ajuste de espaçamento das setas no Desktop */
-        .slick-prev { left: -40px; }
-        .slick-next { right: -40px; }
-        
-        /* Remove outline no clique */
-        .slick-slide:focus { outline: none; }
-        .slick-slide > div { outline: none; }
-      `}</style>
     </section>
   );
 };

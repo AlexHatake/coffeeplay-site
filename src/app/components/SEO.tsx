@@ -1,39 +1,53 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { OG_IMAGE, OG_IMAGE_ALT, SITE_URL } from "../content/site";
 
-export const SEO = () => {
-  const siteTitle = "Coffee Play | IPTV Premium no Brasil - Filmes, Séries e Canais 4K";
-  const siteDescription = "Assista ao melhor do IPTV no Brasil com a Coffee Play. Mais de 90.000 conteúdos em 4K, Full HD e HD. Teste grátis agora em Smart TV, TV Box, Celular e PC.";
-  const siteUrl = "https://coffeeplay.com.br"; // Exemplo, deve ser substituído pelo real
-  const siteImage = "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=1080&auto=format&fit=crop";
+type SEOProps = {
+  title: string;
+  description: string;
+  path: string;
+  jsonLd?: unknown;
+  noindex?: boolean;
+  keywords?: string;
+};
+
+export const SEO = ({ title, description, path, jsonLd, noindex, keywords }: SEOProps) => {
+  const url = path === "/" ? `${SITE_URL}/` : `${SITE_URL}${path}`;
+  const json = jsonLd ? JSON.stringify(jsonLd).replace(/</g, "\\u003c") : "";
 
   return (
-    <Helmet>
-      {/* Basic SEO */}
-      <title>{siteTitle}</title>
-      <meta name="description" content={siteDescription} />
-      <meta name="keywords" content="IPTV, TV Box, Lista IPTV, Streaming, 4K, Filmes, Séries, Futebol Ao Vivo, Android TV, Smart TV, Canais, Teste Grátis" />
+    <Helmet prioritizeSeoTags encodeSpecialCharacters={false}>
+      <html lang="pt-BR" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta
+        name="robots"
+        content={noindex ? "noindex, nofollow" : "index, follow, max-image-preview:large, max-snippet:-1"}
+      />
+      {keywords ? <meta name="keywords" content={keywords} /> : null}
       <meta name="author" content="Coffee Play" />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={siteUrl} />
+      {!noindex ? <link rel="canonical" href={url} /> : null}
 
-      {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={siteUrl} />
-      <meta property="og:title" content={siteTitle} />
-      <meta property="og:description" content={siteDescription} />
-      <meta property="og:image" content={siteImage} />
+      <meta property="og:locale" content="pt_BR" />
+      <meta property="og:site_name" content="Coffee Play" />
+      <meta property="og:url" content={url} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={OG_IMAGE} />
+      <meta property="og:image:secure_url" content={OG_IMAGE} />
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={OG_IMAGE_ALT} />
 
-      {/* Twitter */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={siteUrl} />
-      <meta property="twitter:title" content={siteTitle} />
-      <meta property="twitter:description" content={siteDescription} />
-      <meta property="twitter:image" content={siteImage} />
-      
-      {/* Mobile */}
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-      <meta name="theme-color" content="#C67C2E" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={OG_IMAGE} />
+      <meta name="twitter:image:alt" content={OG_IMAGE_ALT} />
+
+      {json ? <script type="application/ld+json">{json}</script> : null}
     </Helmet>
   );
 };

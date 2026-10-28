@@ -1,60 +1,19 @@
 import React from "react";
 import { Check } from "lucide-react";
+import { benefits, plans } from "../content/site";
 
-export const Pricing = () => {
-  const plans = [
-    {
-      period: "MENSAL",
-      price: "24,90",
-      total: "24,90",
-      featured: false,
-      link: "https://coffeeplay.tv/store/coffeplay-servicos"
-    },
-    {
-      period: "TRIMESTRAL",
-      price: "23,30",
-      total: "69,90",
-      featured: true,
-      save: "Economize R$ 4,80",
-      link: "https://coffeeplay.tv/store/planos-90-dias"
-    },
-    {
-      period: "SEMESTRAL",
-      price: "21,66",
-      total: "130,00",
-      featured: false,
-      save: "Economize R$ 19,40",
-      link: "https://coffeeplay.tv/store/planos-180-dias"
-    },
-    {
-      period: "ANUAL",
-      price: "20,83",
-      total: "250,00",
-      featured: false,
-      save: "Economize R$ 48,80",
-      link: "https://coffeeplay.tv/store/planos-365-dias"
-    }
-  ];
-
-  const benefits = [
-    "+ 90.000 Conteúdos",
-    "Canais 4K, FHD, HD e SD",
-    "Filmes e Séries Ondemand",
-    "Canais Adultos (Opcional)",
-    "Guia de Programação (EPG)",
-    "Assistir no Celular ou TV",
-    "Suporte via WhatsApp"
-  ];
-
+export const Pricing = ({ showHeading = true }: { showHeading?: boolean }) => {
   return (
-    <section id="planos" className="py-24 bg-white">
+    <section id={showHeading ? "planos" : undefined} className={`${showHeading ? "py-24" : "pt-4 pb-16"} bg-white scroll-mt-24`}>
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Planos Flexíveis</h2>
-          <p className="text-gray-500 max-w-2xl mx-auto">
-            Escolha o melhor período para você. Sem multas, sem fidelidade e com renovação manual.
-          </p>
-        </div>
+        {showHeading ? (
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Planos Flexíveis</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto">
+              Escolha o melhor período para você. Sem multas, sem fidelidade e com renovação manual.
+            </p>
+          </div>
+        ) : null}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
@@ -76,9 +35,9 @@ export const Pricing = () => {
                 <h3 className="text-lg font-bold text-gray-500 mb-2">{plan.period}</h3>
                 <div className="flex items-center justify-center text-gray-900">
                     <span className="text-xl font-medium mt-2">R$</span>
-                    <span className="text-5xl font-extrabold">{plan.total}</span>
+                    <span className="text-5xl font-extrabold">{plan.totalLabel}</span>
                 </div>
-                <p className="text-gray-400 text-sm mt-2">Equivalente a R$ {plan.price}/mês</p>
+                <p className="text-gray-400 text-sm mt-2">Equivalente a R$ {plan.monthlyLabel}/mês</p>
                 {plan.save && <p className="text-green-600 text-xs font-bold mt-2 bg-green-50 inline-block px-2 py-1 rounded">{plan.save}</p>}
               </div>
 
