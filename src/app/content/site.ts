@@ -1,3 +1,6 @@
+import { appGuides } from "./apps";
+import { articles } from "./posts";
+
 export const SITE_URL = "https://coffeeplay.com.br";
 export const OG_IMAGE = `${SITE_URL}/og-image.png`;
 export const LOGO = `${SITE_URL}/logo.png`;
@@ -192,11 +195,26 @@ export const HUB_DESCRIPTION =
   "Não importa o aparelho: veja como usar o Coffee Play na Smart TV, Android, TV Box, Fire Stick, celular e PC. Internet de 10 Mega e suporte no WhatsApp.";
 export const HUB_H1 = "Onde instalar o Coffee Play";
 
+export const TESTE_TITLE = "Teste Grátis de 4 Horas | Coffee Play";
+export const TESTE_DESCRIPTION =
+  "O Coffee Play oferece teste grátis de 4 horas. Peça no WhatsApp, receba o acesso na hora e confira a qualidade e a grade antes de assinar, sem fidelidade.";
+export const TESTE_H1 = "Teste grátis de 4 horas";
+
+export const BLOG_TITLE = "Guias de IPTV | Coffee Play";
+export const BLOG_DESCRIPTION =
+  "Guias do Coffee Play sobre imagem que trava, internet para 4K, M3U e Xtream Codes, como escolher um IPTV e qual aparelho usar em casa, com suporte.";
+export const BLOG_H1 = "Guias sobre IPTV";
+
+export const APPS_TITLE = "Apps para assistir IPTV | Coffee Play";
+export const APPS_DESCRIPTION =
+  "O Coffee Play não exige um aplicativo único. Veja como Smarters, TiviMate e XCIPTV pedem o acesso que chega no WhatsApp ou no e-mail. Há teste de 4 horas.";
+export const APPS_H1 = "Apps para usar o acesso";
+
 export const NOT_FOUND_TITLE = "Página não encontrada | Coffee Play";
 export const NOT_FOUND_DESCRIPTION =
   "Esse endereço não existe no Coffee Play. Volte ao início, veja os planos, a instalação por dispositivo ou as dúvidas frequentes.";
 
-export type SeoKind = "home" | "planos" | "faq" | "hub" | "device" | "notfound";
+export type SeoKind = "home" | "planos" | "faq" | "hub" | "device" | "notfound" | "blog" | "article" | "apps" | "app" | "teste";
 
 export type SeoRoute = {
   path: string;
@@ -210,6 +228,8 @@ export type SeoRoute = {
   changefreq?: "weekly" | "monthly";
   priority?: string;
   noindex?: boolean;
+  minWords?: number;
+  maxWords?: number;
 };
 
 export const seoRoutes: SeoRoute[] = [
@@ -280,6 +300,68 @@ export const seoRoutes: SeoRoute[] = [
     kind: "device" as const,
     changefreq: "monthly" as const,
     priority: "0.8",
+  })),
+  {
+    path: "/teste-gratis",
+    renderPath: "/teste-gratis",
+    file: "teste-gratis/index.html",
+    title: TESTE_TITLE,
+    description: TESTE_DESCRIPTION,
+    h1Includes: [TESTE_H1],
+    htmlIncludes: ["4 horas", "WhatsApp", "10 Mega"],
+    kind: "teste",
+    changefreq: "weekly",
+    priority: "0.8",
+  },
+  {
+    path: "/blog",
+    renderPath: "/blog",
+    file: "blog/index.html",
+    title: BLOG_TITLE,
+    description: BLOG_DESCRIPTION,
+    h1Includes: [BLOG_H1],
+    htmlIncludes: ["IPTV travando: como resolver", "M3U ou Xtream Codes: qual a diferença"],
+    kind: "blog",
+    changefreq: "weekly",
+    priority: "0.7",
+  },
+  ...articles.map((article) => ({
+    path: article.path,
+    renderPath: article.path,
+    file: `${article.path.slice(1)}/index.html`,
+    title: article.title,
+    description: article.description,
+    h1Includes: [article.h1],
+    htmlIncludes: [article.h1, "Coffee Play"],
+    kind: "article" as const,
+    changefreq: "monthly" as const,
+    priority: "0.6",
+    minWords: article.minWords,
+    maxWords: article.maxWords,
+  })),
+  {
+    path: "/apps",
+    renderPath: "/apps",
+    file: "apps/index.html",
+    title: APPS_TITLE,
+    description: APPS_DESCRIPTION,
+    h1Includes: [APPS_H1],
+    htmlIncludes: ["IPTV Smarters", "TiviMate", "XCIPTV"],
+    kind: "apps",
+    changefreq: "monthly",
+    priority: "0.6",
+  },
+  ...appGuides.map((app) => ({
+    path: app.path,
+    renderPath: app.path,
+    file: `${app.path.slice(1)}/index.html`,
+    title: app.title,
+    description: app.description,
+    h1Includes: [app.h1],
+    htmlIncludes: ["WhatsApp", "não"],
+    kind: "app" as const,
+    changefreq: "monthly" as const,
+    priority: "0.6",
   })),
   {
     path: "/404",

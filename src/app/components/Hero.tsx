@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Play, ShieldCheck, Zap } from "lucide-react";
 
 export const Hero = () => {
@@ -46,6 +47,11 @@ export const Hero = () => {
               Teste Grátis 4 Horas
             </a>
           </div>
+          <p className="mt-4 text-sm">
+            <Link to="/teste-gratis" className="font-semibold text-[#C67C2E] hover:underline">
+              Como funciona o teste grátis de 4 horas
+            </Link>
+          </p>
 
           <div className="flex items-center gap-6 text-sm font-semibold text-gray-500">
             <div className="flex items-center gap-2">

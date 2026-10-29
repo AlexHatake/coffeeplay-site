@@ -129,6 +129,23 @@ for (const route of manifest) {
   if (route.kind !== "home" && route.kind !== "notfound" && !types.includes("BreadcrumbList")) {
     fail(`${route.path} missing BreadcrumbList`);
   }
+  if (/aggregateRating/i.test(html)) fail(`${route.path} must not include AggregateRating`);
+  if (route.kind === "article" || route.kind === "app") {
+    if (!types.includes("Article")) fail(`${route.path} missing Article JSON-LD`);
+    const articleLd = graph.find((node) => node["@type"] === "Article");
+    if (articleLd.headline !== route.h1Includes[0]) {
+      fail(`${route.path} Article headline "${articleLd.headline}"`);
+    }
+  }
+  if (route.minWords) {
+    const articleHtml = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/);
+    if (!articleHtml) fail(`${route.path} missing <article>`);
+    const words = stripTags(articleHtml[1]).split(/\s+/).filter(Boolean);
+    if (words.length < route.minWords || (route.maxWords && words.length > route.maxWords)) {
+      fail(`${route.path} has ${words.length} words (expected ${route.minWords}-${route.maxWords})`);
+    }
+    console.log(`words ${route.path} ${words.length}`);
+  }
 
   console.log(`ok ${route.path} title=${title.length} desc=${description.length} text=${textLength}`);
 }
@@ -195,7 +212,15 @@ await check("/instalacao/android-tv-box", 200, "MXQ");
 await check("/instalacao/fire-stick", 200, "Fire Stick");
 await check("/instalacao/celular", 200, "Chromecast");
 await check("/instalacao/pc", 200, "Windows");
-await check("/sitemap.xml", 200, "https://coffeeplay.com.br/instalacao/fire-stick");
+await check("/teste-gratis", 200, "Teste grátis de 4 horas");
+await check("/blog", 200, "Guias sobre IPTV");
+await check("/blog/iptv-travando", 200, "IPTV travando: como resolver");
+await check("/blog/m3u-ou-xtream-codes", 200, "Xtream Codes");
+await check("/apps", 200, "Apps para usar o acesso");
+await check("/apps/iptv-smarters-pro", 200, "IPTV Smarters");
+await check("/apps/tivimate", 200, "TiviMate");
+await check("/apps/xciptv", 200, "XCIPTV");
+await check("/sitemap.xml", 200, "https://coffeeplay.com.br/blog/iptv-travando");
 await check("/esta-pagina-nao-existe", 404, "Página não encontrada");
 await check("/instalacao/aparelho-inventado", 404, "noindex");
 

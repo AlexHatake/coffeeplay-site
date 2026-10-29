@@ -23,6 +23,7 @@ export const Navbar = () => {
     { name: "Planos", href: "/planos", sectionId: "planos" },
     { name: "Depoimentos", href: "/#depoimentos", sectionId: "depoimentos" },
     { name: "FAQ", href: "/faq", sectionId: "faq" },
+    { name: "Guias", href: "/blog", sectionId: "guias" },
   ];
 
   const isActive = (href: string) => {

@@ -3,6 +3,7 @@ import {
   faqs,
   LOGO,
   offerDescription,
+  OG_IMAGE,
   PHONE_E164,
   plans,
   SITE_URL,
@@ -15,7 +16,11 @@ function abs(path: string) {
   return path === "/" ? `${SITE_URL}/` : `${SITE_URL}${path}`;
 }
 
-export function buildJsonLd(kind: SeoKind, breadcrumbs: Crumb[] = []) {
+export function buildJsonLd(
+  kind: SeoKind,
+  breadcrumbs: Crumb[] = [],
+  article?: { headline: string; description: string; path: string },
+) {
   const graph: Record<string, unknown>[] = [
     {
       "@type": "Organization",
@@ -83,6 +88,22 @@ export function buildJsonLd(kind: SeoKind, breadcrumbs: Crumb[] = []) {
         description: offerDescription(plan),
         seller: { "@id": `${SITE_URL}/#organization` },
       })),
+    });
+  }
+
+  if ((kind === "article" || kind === "app") && article) {
+    graph.push({
+      "@type": "Article",
+      headline: article.headline,
+      description: article.description,
+      inLanguage: "pt-BR",
+      mainEntityOfPage: abs(article.path),
+      url: abs(article.path),
+      image: OG_IMAGE,
+      datePublished: "2026-10-29",
+      dateModified: "2026-10-29",
+      author: { "@type": "Organization", name: "Coffee Play", "@id": `${SITE_URL}/#organization` },
+      publisher: { "@id": `${SITE_URL}/#organization` },
     });
   }
 

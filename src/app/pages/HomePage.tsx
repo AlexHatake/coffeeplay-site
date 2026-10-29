@@ -5,6 +5,7 @@ import { Devices } from "../components/Devices";
 import { Pricing } from "../components/Pricing";
 import { Testimonials } from "../components/Testimonials";
 import { FAQ } from "../components/FAQ";
+import { Guides } from "../components/Guides";
 import { Reseller } from "../components/Reseller";
 import { SEO } from "../components/SEO";
 import { HOME_DESCRIPTION, HOME_TITLE } from "../content/site";
@@ -26,6 +27,7 @@ export const HomePage = () => {
       <Pricing />
       <Testimonials />
       <FAQ />
+      <Guides />
       <Reseller />
     </>
   );

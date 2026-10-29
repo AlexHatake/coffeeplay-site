@@ -6,8 +6,8 @@ import { EMAIL, LOGIN_URL, PHONE_DISPLAY, WHATSAPP_SUPPORT } from "../content/si
 export const Footer = () => {
   return (
     <footer className="bg-[#2C1A12] text-white pt-16 pb-8 border-t border-white/10">
-      <div className="container mx-auto px-6 grid md:grid-cols-4 gap-12 mb-12">
-        <div className="col-span-1 md:col-span-2">
+      <div className="container mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div>
            <h3 className="text-2xl font-extrabold text-[#C67C2E] mb-6">CoffeePlay</h3>
            <p className="text-gray-400 text-sm leading-relaxed max-w-sm mb-6">
              A melhor plataforma de entretenimento para sua família desde 2020. Assista TV, Filmes e Séries com qualidade de cinema no conforto da sua casa.
@@ -31,7 +31,24 @@ export const Footer = () => {
             <li><Link to="/instalacao/celular" className="hover:text-[#C67C2E] transition-colors">Celular</Link></li>
             <li><Link to="/instalacao/pc" className="hover:text-[#C67C2E] transition-colors">Computador</Link></li>
             <li><Link to="/faq" className="hover:text-[#C67C2E] transition-colors">Ajuda</Link></li>
+            <li><Link to="/teste-gratis" className="hover:text-[#C67C2E] transition-colors">Teste grátis</Link></li>
             <li><a href={LOGIN_URL} className="hover:text-[#C67C2E] transition-colors">Central do Assinante</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-white font-bold text-lg mb-6">Guias</h4>
+          <ul className="space-y-3 text-gray-400 text-sm">
+            <li><Link to="/blog" className="hover:text-[#C67C2E] transition-colors">Todos os guias</Link></li>
+            <li><Link to="/blog/iptv-travando" className="hover:text-[#C67C2E] transition-colors">IPTV travando</Link></li>
+            <li><Link to="/blog/internet-para-iptv-4k" className="hover:text-[#C67C2E] transition-colors">Internet para 4K</Link></li>
+            <li><Link to="/blog/m3u-ou-xtream-codes" className="hover:text-[#C67C2E] transition-colors">M3U ou Xtream</Link></li>
+            <li><Link to="/blog/como-escolher-iptv" className="hover:text-[#C67C2E] transition-colors">Escolher um IPTV</Link></li>
+            <li><Link to="/blog/iptv-e-seguro" className="hover:text-[#C67C2E] transition-colors">Cuidados ao assinar</Link></li>
+            <li><Link to="/blog/melhor-aparelho-para-iptv" className="hover:text-[#C67C2E] transition-colors">Melhor aparelho</Link></li>
+            <li><Link to="/apps/iptv-smarters-pro" className="hover:text-[#C67C2E] transition-colors">IPTV Smarters</Link></li>
+            <li><Link to="/apps/tivimate" className="hover:text-[#C67C2E] transition-colors">TiviMate</Link></li>
+            <li><Link to="/apps/xciptv" className="hover:text-[#C67C2E] transition-colors">XCIPTV</Link></li>
           </ul>
         </div>
 
