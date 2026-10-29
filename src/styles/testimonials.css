@@ -1,0 +1,19 @@
+.slick-dots {
+  bottom: -35px;
+}
+.slick-dots li {
+  margin: 0 4px;
+}
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #E5E7EB;
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  color: #C67C2E !important;
+  opacity: 1;
+}
+.slick-prev { left: -40px; }
+.slick-next { right: -40px; }
+.slick-slide:focus { outline: none; }
+.slick-slide div { outline: none; }

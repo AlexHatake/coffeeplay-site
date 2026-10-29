@@ -1,10 +1,10 @@
 import React from "react";
-import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 import { Play, ShieldCheck, Zap } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section id="hero" className="relative w-full min-h-[90vh] flex items-center pt-20 bg-gradient-to-br from-orange-50 to-white overflow-hidden">
+    <section id="hero" className="relative w-full min-h-[90vh] flex items-center pt-20 bg-gradient-to-br from-orange-50 to-white overflow-hidden scroll-mt-24">
       {/* Background Shapes */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[#C67C2E]/5 skew-x-12 transform origin-top-right translate-x-32" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#C67C2E]/10 rounded-full blur-3xl" />
@@ -12,12 +12,7 @@ export const Hero = () => {
       <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
         
         {/* Text Content */}
-        <motion.div 
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="max-w-xl"
-        >
+        <div className="max-w-xl hero-copy">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 rounded-full text-[#C67C2E] font-bold text-xs uppercase tracking-wider mb-6">
             <span className="w-2 h-2 rounded-full bg-[#C67C2E] animate-pulse" />
             Melhor IPTV do Brasil
@@ -52,6 +47,11 @@ export const Hero = () => {
               Teste Grátis 4 Horas
             </a>
           </div>
+          <p className="mt-4 text-sm">
+            <Link to="/teste-gratis" className="font-semibold text-[#C67C2E] hover:underline">
+              Como funciona o teste grátis de 4 horas
+            </Link>
+          </p>
 
           <div className="flex items-center gap-6 text-sm font-semibold text-gray-500">
             <div className="flex items-center gap-2">
@@ -63,15 +63,10 @@ export const Hero = () => {
               Ativação Imediata
             </div>
           </div>
-        </motion.div>
+        </div>
 
         {/* Hero Image */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative lg:h-[600px] flex items-center justify-center"
-        >
+        <div className="relative lg:h-[600px] flex items-center justify-center hero-visual">
             <div className="relative z-10 w-full max-w-lg">
                 <img 
                     src="https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=1080&auto=format&fit=crop" 
@@ -93,8 +88,23 @@ export const Hero = () => {
             
             {/* Decor Blob */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-orange-200/40 to-transparent rounded-full blur-3xl -z-10" />
-        </motion.div>
+        </div>
       </div>
+      <style>{`
+        @keyframes hero-copy-in {
+          from { opacity: 0; transform: translateX(-30px); }
+          to { opacity: 1; transform: none; }
+        }
+        @keyframes hero-visual-in {
+          from { opacity: 0; transform: scale(0.9); }
+          to { opacity: 1; transform: none; }
+        }
+        .hero-copy { animation: hero-copy-in 0.8s ease both; }
+        .hero-visual { animation: hero-visual-in 0.8s ease 0.2s both; }
+        @media (prefers-reduced-motion: reduce) {
+          .hero-copy, .hero-visual { animation: none; }
+        }
+      `}</style>
     </section>
   );
 };
