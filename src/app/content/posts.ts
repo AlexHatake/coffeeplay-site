@@ -1,7 +1,7 @@
 import type { GuideDoc } from "./rich";
 
 const relatedBase = {
-  teste: { href: "/teste-gratis", label: "Teste grátis de 4 horas" },
+    teste: { href: "/teste-gratis", label: "Teste grátis de 4 horas" },
   planos: { href: "/planos", label: "Planos e preços" },
   faq: { href: "/faq", label: "Dúvidas frequentes" },
   internet: { href: "/blog/internet-para-iptv-4k", label: "Qual internet para 4K" },
@@ -359,7 +359,7 @@ Uma caixa barata e sem folga de memória trava o sistema inteiro, não só um ca
 
 ## Celular, tablet e Chromecast
 
-Android e iPhone/iPad estão na lista, e o benefício do plano cita assistir no celular ou na TV. Para viagem, ou para o quarto sem televisor, o celular basta. Na sala, o Chromecast entra como o site descreve: transmitir do celular para a TV. Os dois precisam enxergar o Wi-Fi com folga. O detalhe está em [celular](/instalacao/celular).
+Android e iPhone/iPad estão na lista, e o benefício do plano cita assistir no celular ou na TV. Para viagem, ou para o quarto sem televisor, o celular basta. Na sala, o Chromecast entra como o site descreve: transmitir do celular para a TV. Os dois precisam enxergar o Wi-Fi com folga. O detalhe do celular está em [celular](/instalacao/celular). O caminho com o Chromecast na sala está em [IPTV no Chromecast](/blog/iptv-no-chromecast).
 
 Celular no bolso com a tela bloqueada não deve ficar reproduzindo junto com a TV. Isso consome a única tela do plano padrão e parece “queda do serviço”.
 
@@ -378,6 +378,84 @@ Os preços do acesso, separados do preço do aparelho, continuam em [planos](/pl
 Primeiro meça a internet ao lado da TV. Se não chega perto dos 10 Mega, nenhum aparelho da lista vai criar banda. Depois peça as 4 horas de teste no que você já tem, mesmo que seja o celular ou o computador. Se a imagem servir e a loja da TV não deixar instalar um player, aí sim um TV Box ou Fire Stick entra na conversa. Se a imagem não servir nem no cabo, no computador, o aparelho novo não é o próximo passo: é o suporte, com o relato do teste.
 
 Quem assiste em dois cômodos precisa lembrar da tela única do plano padrão antes de comprar duas caixas. O segundo ponto tem preço à parte, não publicado nesta página. Perguntar no WhatsApp custa menos do que duas caixas ligadas num login só, as duas caindo no meio do programa. O aparelho certo é o que a sua casa usa de verdade, na rede que ela tem, com o número de telas que o plano cobre.
+`,
+  },
+  {
+    kind: "article",
+    slug: "iptv-no-chromecast",
+    path: "/blog/iptv-no-chromecast",
+    title: "IPTV no Chromecast: transmitir do celular | Coffee Play",
+    description:
+      "O Chromecast transmite o Coffee Play do celular para a TV. Confira o mesmo Wi-Fi, os 10 Mega, o plano de 1 tela e o teste grátis de 4 horas no WhatsApp.",
+    h1: "IPTV no Chromecast: transmitir do celular",
+    eyebrow: "Guia",
+    intro:
+      "No site do Coffee Play, o Chromecast não abre a lista sozinho. Ele transmite do celular para a TV. Se o aparelho já está na HDMI da sala, dá para assistir sem trocar o televisor, desde que o telefone e o Wi-Fi da casa acompanhem.",
+    related: [
+      { href: "/instalacao/celular", label: "Coffee Play no celular" },
+      relatedBase.internet,
+      relatedBase.aparelho,
+      relatedBase.faq,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica sobre o Chromecast
+
+Na página de celular, o Chromecast aparece junto com Android e iOS. A frase do site é direta: dá para assistir no celular e, com Chromecast, transmitir do celular para a TV. Não há aplicativo oficial do Coffee Play para esse aparelho, nem uma geração obrigatória. O celular reproduz. A TV mostra.
+
+Procurar uma loja dentro do Chromecast, como se ele fosse um TV Box, é um caminho que o site não descreve. MXQ, Mi Box, Fire Stick e Roku estão em [Android e TV Box](/instalacao/android-tv-box). O Chromecast está em [celular](/instalacao/celular). Se a TV já abre um player sem telefone, compare com [qual aparelho usar](/blog/melhor-aparelho-para-iptv) antes de insistir na transmissão.
+
+O celular compatível é Android ou iPhone/iPad. A transmissão junta o telefone e a TV da sala quando a loja do televisor não ajuda, ou quando o controle que você quer é o que já está na mão.
+
+## Celular e Chromecast na mesma rede
+
+Os dois precisam ver o mesmo roteador. Rede de visitas, que isola os aparelhos, deixa o celular online e o Chromecast invisível. Se a TV não aparece para transmitir, saia do Wi-Fi de convidados e use a rede principal. Confira também se o telefone não caiu nos dados móveis. Dados móveis e o Wi-Fi da sala não se encontram.
+
+A distância pesa nos dois pontos. O celular no sofá pode ter sinal cheio e o Chromecast atrás da TV ficar no canto morto. A imagem sai do telefone e ainda precisa chegar na HDMI. O guia de [internet para 4K](/blog/internet-para-iptv-4k) descreve esse caminho: o Wi-Fi entra duas vezes, no celular e de novo até a TV. A folga acaba mais rápido do que numa Smart TV ligada direto.
+
+O piso publicado é no mínimo 10 Mega, medido ao lado da TV, não só na cozinha. Se a velocidade oscila, a transmissão oscila. Perto do roteador, 5 GHz costuma sobrar. Do outro lado da casa, o sinal no Chromecast pode ficar justo mesmo com um plano largo no contrato. O site não exige cabo. Assista alguns minutos só no celular. Se ali a imagem firma e só piora na TV, o limite está no segundo trecho de Wi-Fi, não na lista que você recebeu.
+
+## O acesso abre no celular
+
+O envio é imediato. Pedido o teste ou confirmado o pagamento, os dados chegam no WhatsApp ou no e-mail. Essa mensagem manda nos campos: um link de lista, ou servidor, usuário e senha. A diferença está em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). Não invente um servidor que a mensagem não trouxe, e não cole um link cortado pela quebra de linha.
+
+O player fica no telefone. O site não impõe um aplicativo. Exemplos de tela, em outros aparelhos, estão em [apps](/apps), e nenhum deles é app obrigatório da marca. No celular, instale pela loja do Android ou da Apple quando o aplicativo existir ali. Arquivo solto ou APK de site desconhecido não faz parte do atendimento publicado.
+
+Abra um canal no celular e só então transmita. Se a lista não carrega no telefone, a TV não corrige senha com espaço, usuário trocado ou formato errado. O suporte, de segunda a segunda e 24 horas, lê melhor um print em que a senha não aparece.
+
+A função de transmitir é do celular, para o Chromecast que estiver na mesma rede. O Coffee Play não publica um botão com outro nome. Se o player não mostrar esse controle, use a opção de transmitir tela do próprio telefone. Continua sendo o celular levando a imagem até a TV, que é o uso descrito no site.
+
+## Uma tela, mesmo com a TV ligada
+
+Os planos padrão são para 1 tela. Transmitir é o celular usando o acesso, com a TV só exibindo. Abrir o mesmo login ao mesmo tempo na Smart TV, no tablet ou no telefone de outra pessoa são duas reproduções, e o plano padrão não foi descrito para isso.
+
+Feche os outros aparelhos antes de concluir que o Chromecast derrubou o canal. A pergunta sobre mais telas está nas [dúvidas frequentes](/faq). O ponto adicional tem preço especial, não publicado neste guia. Se a sala e o quarto precisam funcionar juntos, pergunte no WhatsApp em vez de assumir o valor.
+
+O celular que transmite precisa seguir na rede. Em alguns telefones, bloquear a tela pausa o aplicativo ou corta a transmissão. Se a TV congela quando o telefone apaga, destrave e veja se a imagem volta. Deixar o telefone tocando no bolso e ainda abrir outro aplicativo na TV consome a única tela do plano.
+
+## Como usar as quatro horas de teste
+
+O [teste grátis de 4 horas](/teste-gratis) mostra esse arranjo na sua sala, não na casa de outra pessoa. Peça no WhatsApp, receba os dados na hora e use as horas no horário em que você assiste, com o Wi-Fi do dia a dia.
+
+- Assista alguns minutos só no celular, ao lado da TV, sem transmitir.
+- Transmita o mesmo canal e espere cerca de dez minutos, com download e videochamada pausados.
+- Abra também um filme ou uma série on demand. O catálogo inclui filmes e séries on demand e canais em 4K, Full HD, HD e SD.
+- Se a grade aparecer, ela é o guia de programação citado no plano. Se não aparecer, o canal ainda pode tocar.
+
+4K pede mais da rede do que HD. Se a transmissão em 4K corta e o HD segura, a sala está no limite da faixa mais pesada. Não é obrigatório assistir tudo em 4K. O mínimo informado continua 10 Mega. Se o celular segura e a TV picota, o ajuste é o Wi-Fi da sala. Se os dois picotam, com a casa quieta e a medição acima dos 10 Mega, siga o guia de [imagem travando](/blog/iptv-travando) e leve aparelho, Wi-Fi, se havia outra tela e o canal da falha.
+
+## Quando outro aparelho faz mais sentido
+
+O Chromecast depende do celular por perto, acordado e na mesma rede. Quem quer a TV sozinha, com um controle só, olha Smart TV Samsung, LG, Sony ou Android TV, ou um TV Box como MXQ, Mi Box, Fire Stick e Roku. O mapa está em [instalação](/instalacao). O site não pede que você compre um aparelho novo para fazer o teste.
+
+Não troque de caixa se o celular já mostra a imagem e o que falta é sinal na sala. Aparelho novo não cria mega. Se a loja da TV não ajuda e você não quer o telefone no meio da sessão, um TV Box da lista entra depois de ver a imagem pelo menos uma vez.
+
+## Se a imagem servir
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela, com o equivalente mensal de cada período, está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O preço do Chromecast não está no site, e este texto não inventa um. O hardware é seu. O Coffee Play cobra o período do acesso.
+
+Se algo falhar, o WhatsApp de suporte do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, com atendimento 24 horas. Diga se o celular sozinho toca, se o Chromecast aparece para transmitir, se os dois estão na mesma rede e se outro login estava aberto. A conversa começa do ponto em que a sua sala realmente parou.
 `,
   },
 ];
