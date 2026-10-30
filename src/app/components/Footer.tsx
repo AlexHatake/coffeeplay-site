@@ -46,6 +46,7 @@ export const Footer = () => {
             <li><Link to="/blog/como-escolher-iptv" className="hover:text-[#C67C2E] transition-colors">Escolher um IPTV</Link></li>
             <li><Link to="/blog/iptv-e-seguro" className="hover:text-[#C67C2E] transition-colors">Cuidados ao assinar</Link></li>
             <li><Link to="/blog/melhor-aparelho-para-iptv" className="hover:text-[#C67C2E] transition-colors">Melhor aparelho</Link></li>
+            <li><Link to="/blog/iptv-no-chromecast" className="hover:text-[#C67C2E] transition-colors">IPTV no Chromecast</Link></li>
             <li><Link to="/apps/iptv-smarters-pro" className="hover:text-[#C67C2E] transition-colors">IPTV Smarters</Link></li>
             <li><Link to="/apps/tivimate" className="hover:text-[#C67C2E] transition-colors">TiviMate</Link></li>
             <li><Link to="/apps/xciptv" className="hover:text-[#C67C2E] transition-colors">XCIPTV</Link></li>
