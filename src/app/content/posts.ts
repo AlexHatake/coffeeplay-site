@@ -458,4 +458,77 @@ Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 
 Se algo falhar, o WhatsApp de suporte do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, com atendimento 24 horas. Diga se o celular sozinho toca, se o Chromecast aparece para transmitir, se os dois estão na mesma rede e se outro login estava aberto. A conversa começa do ponto em que a sua sala realmente parou.
 `,
   },
+  {
+    kind: "article",
+    slug: "esporte-filmes-e-series",
+    path: "/blog/esporte-filmes-e-series",
+    title: "Como achar esporte, filmes e séries no IPTV | Coffee Play",
+    description:
+      "O Coffee Play publica canais ao vivo, filmes, séries on demand e EPG. Saiba como achar esporte na lista e confira a grade no teste grátis de 4 horas.",
+    h1: "Como achar esporte, filmes e séries no IPTV",
+    eyebrow: "Guia",
+    intro:
+      "A lista parece enorme quando você só quer um jogo, um filme ou o próximo episódio. O Coffee Play publica o tamanho do catálogo e o tipo de conteúdo. Não publica a grade de um campeonato nem a ficha de um filme. Dá para procurar com método, e as quatro horas de teste mostram o que abre na sua TV.",
+    related: [relatedBase.internet, relatedBase.travando, relatedBase.m3u, relatedBase.teste],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o catálogo publicado inclui
+
+O site fala em mais de 90.000 conteúdos. Os benefícios nomeados são canais em 4K, Full HD, HD e SD, filmes e séries on demand, canais adultos opcionais, guia de programação (EPG) e assistir no celular ou na TV. Esse é o mapa. Não há, nas páginas do Coffee Play, uma contagem de canais de esporte, de notícia ou de desenho.
+
+Esporte, neste texto, é programação ao vivo: o jogo acontece na hora. Filme e série on demand são outra prateleira, e o título começa quando você dá o play. Procurar o filme no meio dos canais, ou o jogo no meio dos filmes, é o jeito mais comum de achar que a lista não tem o que você quer.
+
+## Onde a lista separa as coisas
+
+O acesso chega no WhatsApp ou no e-mail, na hora, quando o teste é pedido ou o pagamento é confirmado. A mensagem traz um link de lista ou servidor, usuário e senha. Os dois formatos estão em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). O player monta os grupos a partir dessa mensagem. O Coffee Play não escolhe o nome dos grupos e não impõe um aplicativo. IPTV Smarters, TiviMate e XCIPTV são exemplos de tela, em [apps](/apps), e nenhum deles é aplicativo oficial da marca.
+
+Na maior parte desses players a TV ao vivo fica separada de filmes e de séries. O rótulo muda: ao vivo, live, filmes, séries, on demand. Use o que aparecer no seu aparelho. Se o grupo de filmes abrir vazio e o de canais estiver cheio, a lista pode ter carregado pela metade, ou o formato colado não é o da mensagem. Volte ao WhatsApp ou ao e-mail antes de concluir que não existe filme.
+
+A busca do aplicativo rende mais do que rolar tudo. Digite uma palavra do que você quer ver e olhe em qual grupo o resultado caiu. Um título em filmes não é um canal de jogo. Um nome em canais não é um episódio para continuar no dia seguinte.
+
+## Esporte ao vivo
+
+Quem procura esporte quase sempre quer um jogo ao vivo, muitas vezes de futebol. O site não lista campeonatos, times nem um pacote separado. Abra os grupos de canais, use a busca do player e leia o guia de programação quando ele aparecer. Se o nome do programa estiver na grade, você confirma o canal. Se o jogo esperado não estiver lá, não complete a lista com um link de fórum. Lista de outra pessoa não é o acesso do Coffee Play.
+
+O horário muda o que passa. De tarde o canal pode estar em outro programa, e à noite no jogo. O EPG mostra o agora, quando a lista e o aplicativo conseguem exibi-lo. Não é um calendário do mês. Grade em branco também não apaga o canal: em vários players a opção fica desligada. Os exemplos de tela estão em [apps](/apps).
+
+No jogo, a faixa de qualidade pesa. Canais em SD e HD pedem menos da rede do que um canal em 4K. O catálogo inclui essas faixas. O site não diz que todo canal existe nas quatro, nem que o jogo de hoje está em 4K. Se a imagem mais pesada cortar, procure na mesma lista uma opção em HD parecida com a que você já via. O piso publicado é 10 Mega, medidos perto da TV. A conta entre esse piso e o 4K está no [guia de internet para 4K](/blog/internet-para-iptv-4k).
+
+## Uma tela quando a casa assiste junta
+
+O plano padrão é de 1 tela. Celular aberto no bolso e TV na sala são duas reproduções, e no meio do jogo isso parece falha do canal. Feche os outros aparelhos, espere um minuto e deixe só a tela em que a família está. A pergunta sobre mais telas está nas [dúvidas frequentes](/faq). Pontos adicionais têm preços especiais, fora desta página. Se a sala e o quarto precisam do mesmo jogo ao mesmo tempo, pergunte no WhatsApp antes de chutar o valor. Episódio no celular e filme na TV, no mesmo login, esbarram no mesmo limite.
+
+## Filmes e séries on demand
+
+On demand é o benefício escrito como filmes e séries. Você escolhe o título, sem esperar o horário da grade. Buscar pelo nome funciona melhor do que abrir o primeiro grupo e desistir na letra A. Se o nome não aparecer, pode ser grafia, grupo errado ou um título que não está na lista naquele dia. O site não promete um filme ou uma série específicos. As quatro horas de teste servem para procurar o que a sua casa assiste de verdade.
+
+Um filme pode levar uns segundos para começar e, depois, seguir. Um jogo não espera. Se os dois travam, o caminho é o guia de [imagem travando](/blog/iptv-travando): rede, aparelho e segunda tela. Se só o 4K do filme falha e o HD segue, a sala está no limite da faixa mais pesada.
+
+O aparelho muda a loja, não o tipo de conteúdo. Smart TV Samsung, LG, Sony e Android TV, TV Box como MXQ, Mi Box, Fire Stick e Roku, celular, computador e Chromecast estão entre os compatíveis. O mapa está em [onde instalar](/instalacao). Se a TV não deixa instalar um player, o texto sobre [qual aparelho usar](/blog/melhor-aparelho-para-iptv) evita comprar uma caixa no escuro.
+
+## Grade, adultos e o resto da casa
+
+O EPG descreve o programa atual dos canais que a lista trouxe. Ajuda a achar o jogo sem entrar em dez canais às cegas. Não substitui filmes e séries: on demand não fica na grade do canal ao vivo. Se a grade vier em branco num canal e preenchida no outro, anote os dois e siga no que abre. Esse relato ajuda o suporte, que atende de segunda a segunda, 24 horas.
+
+Canais adultos são opcionais. A palavra está no site, e cabe em casa com criança. No teste, veja se o grupo aparece. Se aparecer e você não quiser, fale com o suporte antes de seguir um passo que mexe na lista ou pede arquivo fora da loja do aparelho. Não há, publicado, um menu de controle parental nem um pacote infantil com preço próprio. Para desenho ou programa familiar, use os grupos da sua lista e a busca do player, e confirme na própria TV.
+
+## As quatro horas no seu horário
+
+O [teste grátis de 4 horas](/teste-gratis) cabe num canal ao vivo, num filme e numa série, no Wi-Fi do dia a dia, antes de escolher o período. Peça no WhatsApp. Os dados chegam na hora.
+
+- Fique cerca de dez minutos num canal ao vivo, no tipo de programa que você assiste.
+- Abra um filme e uma série pelos grupos on demand, não pela lista de canais.
+- Veja se o guia mostra o nome do programa atual.
+- Confira se outro aparelho estava com o mesmo login.
+
+Se a imagem cortar só no ao vivo, os guias de [internet para 4K](/blog/internet-para-iptv-4k) e de [imagem travando](/blog/iptv-travando) vêm antes de um plano novo. Se nada abrir, revise o formato da lista. Quando a loja da TV não ajuda, as páginas de instalação separam [Smart TV](/instalacao/smart-tv), [Android e TV Box](/instalacao/android-tv-box), [Fire Stick](/instalacao/fire-stick), [celular](/instalacao/celular) e [computador](/instalacao/pc).
+
+## O preço é o do período
+
+Esporte, filme e série usam o mesmo acesso. Os valores publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00, sem multa, sem fidelidade e com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto.
+
+Um adicional para liberar esporte ou liberar filme não está no site. Confirme no WhatsApp de suporte, (21) 98799-8271, ou no e-mail coffeeplayy@gmail.com. O teste mostra se a lista da sua casa tem o que você procura. O período só define por quanto tempo o acesso fica com você.
+`,
+  },
 ];
