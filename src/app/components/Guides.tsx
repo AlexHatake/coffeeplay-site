@@ -9,7 +9,7 @@ export const Guides = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">Guias práticos</h2>
           <p className="text-gray-500 max-w-2xl mx-auto">
-            Textos para resolver imagem, internet, aparelho e a forma do acesso, com o teste de 4 horas e os preços que já estão no site.
+            Textos para resolver imagem, internet, aparelho, a forma do acesso e o que procurar na lista, com o teste de 4 horas e os preços que já estão no site.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
