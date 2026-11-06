@@ -71,11 +71,15 @@ export function buildJsonLd(
 
   if (kind === "home" || kind === "planos") {
     graph.push({
-      "@type": "Product",
-      "@id": `${SITE_URL}/planos#produto`,
+      "@type": "Service",
+      "@id": `${SITE_URL}/planos#servico`,
       name: "Coffee Play IPTV",
+      serviceType: "Assinatura de IPTV",
       description:
         "IPTV com mais de 90.000 conteúdos, canais em 4K, Full HD e HD, filmes e séries on demand. Planos sem multas, sem fidelidade e com renovação manual.",
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: "BR",
+      url: `${SITE_URL}/planos`,
       brand: { "@type": "Brand", name: "Coffee Play" },
       image: `${SITE_URL}/og-image.png`,
       offers: plans.map((plan) => ({
