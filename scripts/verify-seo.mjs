@@ -112,18 +112,24 @@ for (const route of manifest) {
     fail(`${route.path} JSON-LD missing Organization/WebSite (${types.join(", ")})`);
   }
   const wantsFaq = route.kind === "home" || route.kind === "faq";
-  const wantsProduct = route.kind === "home" || route.kind === "planos";
+  const wantsService = route.kind === "home" || route.kind === "planos";
   if (wantsFaq !== types.includes("FAQPage")) fail(`${route.path} FAQPage schema mismatch`);
-  if (wantsProduct !== types.includes("Product")) fail(`${route.path} Product schema mismatch`);
-  if (wantsProduct) {
-    const product = graph.find((node) => node["@type"] === "Product");
-    const prices = product.offers.map((offer) => offer.price).sort();
+  if (/"@type"\s*:\s*"Product"/.test(blocks[0][1])) fail(`${route.path} JSON-LD must not use Product`);
+  if (/shippingDetails|hasMerchantReturnPolicy/i.test(blocks[0][1])) {
+    fail(`${route.path} JSON-LD must not include shipping or return policy`);
+  }
+  if (wantsService !== types.includes("Service")) fail(`${route.path} Service schema mismatch`);
+  if (wantsService) {
+    const service = graph.find((node) => node["@type"] === "Service");
+    const prices = service.offers.map((offer) => offer.price).sort();
     if (JSON.stringify(prices) !== JSON.stringify([...expectedPrices].sort())) {
       fail(`${route.path} offer prices ${prices.join(", ")}`);
     }
-    for (const offer of product.offers) {
+    for (const offer of service.offers) {
+      if (!offer.name) fail(`${route.path} offer missing name`);
       if (offer.priceCurrency !== "BRL") fail(`${route.path} offer currency`);
       if (!String(offer.url).startsWith("https://coffeeplay.tv/store/")) fail(`${route.path} offer url`);
+      if (offer.availability !== "https://schema.org/InStock") fail(`${route.path} offer availability`);
     }
   }
   if (route.kind !== "home" && route.kind !== "notfound" && !types.includes("BreadcrumbList")) {
