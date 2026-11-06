@@ -531,4 +531,91 @@ Esporte, filme e série usam o mesmo acesso. Os valores publicados são mensal R
 Um adicional para liberar esporte ou liberar filme não está no site. Confirme no WhatsApp de suporte, (21) 98799-8271, ou no e-mail coffeeplayy@gmail.com. O teste mostra se a lista da sua casa tem o que você procura. O período só define por quanto tempo o acesso fica com você.
 `,
   },
+  {
+    kind: "article",
+    slug: "iptv-no-fire-stick",
+    path: "/blog/iptv-no-fire-stick",
+    title: "IPTV no Fire Stick e no Fire TV | Coffee Play",
+    description:
+      "O Fire Stick é um TV Box compatível com o Coffee Play. Veja como ele difere do Chromecast, os 10 Mega, a tela única e o teste grátis de 4 horas.",
+    h1: "IPTV no Fire Stick e no Fire TV",
+    eyebrow: "Guia",
+    intro:
+      "O Fire Stick fica na HDMI e abre a lista com o próprio controle. No site do Coffee Play ele aparece como TV Box, ao lado de MXQ, Mi Box e Roku. Não é o caminho do Chromecast, que depende do celular. Se a caixinha já está na TV, dá para testar a imagem nela, com a internet da sala.",
+    related: [
+      { href: "/instalacao/fire-stick", label: "Coffee Play no Fire Stick" },
+      { href: "/blog/iptv-no-chromecast", label: "IPTV no Chromecast" },
+      relatedBase.aparelho,
+      relatedBase.faq,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica
+
+O Fire Stick está na lista de TV Boxes compatíveis, junto com MXQ, Mi Box e Roku. A página própria diz que o acesso chega no WhatsApp ou no e-mail, na hora, de forma automática. O texto de Android TV lembra que o stick também entra naquele grupo e aponta para [Coffee Play no Fire Stick](/instalacao/fire-stick). As outras caixas ficam em [Android e TV Box](/instalacao/android-tv-box).
+
+A home resume a compatibilidade numa frase: não importa o dispositivo, o Coffee Play roda liso, e a instalação é em segundos. O suporte, de segunda a segunda e 24 horas, entra quando a loja do aparelho não mostra o que você esperava.
+
+Não há, publicado, um modelo obrigatório. O site não separa geração, tamanho nem resolução da caixa. Na conversa do dia a dia, Fire Stick, Fire TV Stick e Fire TV se misturam. O site usa Fire Stick. Este guia acompanha os outros nomes porque descrevem a mesma ideia: um aparelho da Amazon na entrada HDMI, com controle próprio. O Coffee Play não publica diferença de plano entre esses nomes, nem diz que um modelo aceita 4K e outro não. A faixa 4K, Full HD, HD ou SD é do conteúdo e da rede. A TV ser 4K não cria qualidade que a conexão não entrega.
+
+## O que muda em relação ao Chromecast
+
+O Chromecast, na página de celular, transmite do celular para a TV. O telefone reproduz, a TV mostra, os dois precisam ver o mesmo Wi-Fi e o celular precisa continuar acordado. O guia [IPTV no Chromecast](/blog/iptv-no-chromecast) percorre esse arranjo.
+
+No Fire Stick a lista abre na própria caixa. O celular pode ficar guardado. O controle que muda de canal é o do stick. Para quem quer a TV sozinha, esse é o ponto prático.
+
+A rede também muda. No Chromecast o Wi-Fi entra duas vezes, no celular e de novo até a TV. No Fire Stick há um aparelho na sala, e o diagnóstico fica mais direto: ou a caixa recebe sinal, ou não recebe. Atrás do painel, dentro de um rack fechado, o stick sofre o mesmo canto morto de qualquer aparelho na HDMI.
+
+O catálogo não muda com a caixa. O site fala em mais de 90.000 conteúdos, canais em 4K, Full HD, HD e SD, filmes e séries on demand, canais adultos opcionais e guia de programação. Não existe um pacote só de Fire Stick, nem uma taxa para liberar o aparelho. Quem ainda compara caixas pode ler [qual aparelho usar](/blog/melhor-aparelho-para-iptv). O site não pede um stick novo para fazer o teste.
+
+## O acesso, sem app da marca
+
+A mensagem do WhatsApp ou do e-mail manda nos campos. Pode ser um link de lista, ou servidor, usuário e senha. Os dois formatos estão em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). Cole sem espaço nas pontas. Não invente um servidor que a mensagem não trouxe, e não complete um link cortado pela quebra de linha.
+
+O Coffee Play não impõe um aplicativo e não apresenta um player oficial para o Fire Stick. IPTV Smarters, TiviMate e XCIPTV são exemplos de tela, reunidos em [apps](/apps). Nenhum deles é app da marca. O guia do [TiviMate](/apps/tivimate) observa que muita gente também o usa no Fire Stick, e deixa registrado que não é o aplicativo oficial. Se a loja mostrar outro player que aceite M3U ou Xtream, a lógica é a mesma: casar os campos com a mensagem.
+
+Instale pela loja do próprio aparelho, quando o aplicativo estiver ali. Arquivo solto ou APK de site desconhecido não faz parte do atendimento publicado. Se a loja não mostrar o player que você tinha em mente, chame o WhatsApp e diga o modelo, em vez de seguir um passo achado fora do site.
+
+## Os 10 Mega ao lado da TV
+
+A exigência é uma conexão de no mínimo 10 Mega e um aparelho compatível: TV, celular, TV Box ou computador. Dez mega é o piso informado, não uma garantia de 4K com a casa cheia. Meça ao lado da TV. O número bom na cozinha não é o número atrás do televisor. Se o teste oscila, a imagem oscila.
+
+Perto do roteador, 5 GHz costuma sobrar. Do outro lado da casa, o sinal no stick pode ficar justo mesmo com um plano largo no contrato. Aproximar o roteador ou tirar a caixa de um rack fechado muda mais do que insistir no mesmo canal. O site não exige cabo.
+
+Canais em SD e HD pedem menos do que um canal em 4K. Se o 4K corta e o HD segura, a sala está no limite da faixa mais pesada. Não é obrigatório assistir tudo em 4K. A conta está em [qual internet para 4K](/blog/internet-para-iptv-4k). Pause download e videochamada e veja se o canal firma por uns dez minutos. Se firmar, o limite era a rede dividida, não a lista.
+
+## Uma tela por vez
+
+Os planos padrão são para 1 tela. O Fire Stick na sala e o celular no sofá, com o mesmo login, são duas reproduções. Uma das duas tende a cair, e a culpa parece ser da caixa. Feche o aplicativo nos outros aparelhos, espere um minuto e deixe só a TV.
+
+A pergunta sobre mais telas está nas [dúvidas frequentes](/faq). Pontos adicionais têm preços especiais, fora deste guia. Se a sala e o quarto precisam funcionar juntos, pergunte no WhatsApp antes de assumir que um acesso cobre as duas caixas.
+
+## As quatro horas no stick
+
+O [teste grátis de 4 horas](/teste-gratis) mostra essa caixa na sua casa, no horário em que você assiste, com o Wi-Fi do dia a dia. Peça no WhatsApp. Os dados chegam na hora.
+
+- Confira se a TV está na entrada HDMI do stick e se o controle dele responde.
+- Fique cerca de dez minutos num canal ao vivo, com a casa quieta.
+- Abra também um filme ou uma série on demand. Os dois estão nos benefícios publicados.
+- Se a grade aparecer, ela é o guia de programação do plano. Se não aparecer, o canal ainda pode tocar.
+- Veja se outro aparelho ficou com o mesmo login.
+
+## Se a imagem não firmar
+
+Se a lista não carrega, releia a mensagem: formato trocado, senha com letra parecida, link pela metade. Se o mesmo acesso abre no celular, na mesma rede, e falha só no Fire Stick, a lista está chegando. O ajuste é a caixa, a loja ou o Wi-Fi atrás da TV.
+
+Se os dois picotam, com uma tela só e a medição ao lado da TV acima dos 10 Mega, siga o guia de [imagem travando](/blog/iptv-travando). Anote o aparelho, se está no Wi-Fi, se havia outra tela e em qual canal a falha aparece. O WhatsApp do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, com atendimento 24 horas.
+
+Não troque de stick se o que falta é sinal na sala. Aparelho novo não cria mega. Se a Smart TV que você já tem abre um player, ela continua na lista: Samsung, LG, Sony e Android TV. O mapa está em [onde instalar](/instalacao).
+
+## Se o teste convencer
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O preço do Fire Stick não está no site, e este texto não inventa um. O aparelho é seu. O Coffee Play cobra o período do acesso.
+
+Canais adultos são opcionais. Em casa com criança, veja no teste se o grupo aparece e fale com o suporte se quiser tirá-lo da frente, sem seguir um arquivo fora da loja.
+
+Comece pela caixa que já está na HDMI, na rede que a sala tem, com uma tela por vez. As quatro horas dizem se essa combinação te serve, antes de qualquer período mais longo.
+`,
+  },
 ];

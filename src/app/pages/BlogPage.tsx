@@ -18,7 +18,7 @@ export const BlogPage = () => {
       <PageHero
         eyebrow="Guias"
         title={BLOG_H1}
-        intro="Textos práticos sobre imagem, internet, lista M3U ou Xtream, escolha do serviço, aparelho, transmissão do celular para a TV e como achar esporte, filmes e séries na lista. Os preços e o teste citados são os que o site já publica."
+        intro="Textos práticos sobre imagem, internet, lista M3U ou Xtream, escolha do serviço, aparelho, Fire Stick, transmissão do celular para a TV e como achar esporte, filmes e séries na lista. Os preços e o teste citados são os que o site já publica."
         breadcrumbs={crumbs}
       />
       <section className="py-16 bg-white">
