@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Play, User } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { LOGIN_URL, WHATSAPP_TEST } from "../content/site";
+import { WHATSAPP_TEST } from "../content/site";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,7 +75,7 @@ export const Navbar = () => {
         {/* Buttons */}
         <div className="hidden xl:flex items-center gap-4">
           <a
-            href={LOGIN_URL}
+            href={WHATSAPP_TEST}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-[#C67C2E] font-bold text-sm transition-colors"
@@ -124,7 +124,7 @@ export const Navbar = () => {
               ))}
               <hr className="border-gray-100" />
               <a
-                href={LOGIN_URL}
+                href={WHATSAPP_TEST}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 font-bold hover:text-[#C67C2E] flex items-center gap-2"

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Mail, Phone } from "lucide-react";
-import { EMAIL, LOGIN_URL, PHONE_DISPLAY, WHATSAPP_SUPPORT } from "../content/site";
+import { EMAIL, PHONE_DISPLAY, WHATSAPP_SUPPORT, WHATSAPP_TEST } from "../content/site";
 
 export const Footer = () => {
   return (
@@ -32,7 +32,7 @@ export const Footer = () => {
             <li><Link to="/instalacao/pc" className="hover:text-[#C67C2E] transition-colors">Computador</Link></li>
             <li><Link to="/faq" className="hover:text-[#C67C2E] transition-colors">Ajuda</Link></li>
             <li><Link to="/teste-gratis" className="hover:text-[#C67C2E] transition-colors">Teste grátis</Link></li>
-            <li><a href={LOGIN_URL} className="hover:text-[#C67C2E] transition-colors">Central do Assinante</a></li>
+            <li><a href={WHATSAPP_TEST} target="_blank" rel="noopener noreferrer" className="hover:text-[#C67C2E] transition-colors">Central do Assinante</a></li>
           </ul>
         </div>
 

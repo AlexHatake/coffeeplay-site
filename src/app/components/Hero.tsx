@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Play, ShieldCheck, Zap } from "lucide-react";
+import { WHATSAPP_TEST } from "../content/site";
 
 export const Hero = () => {
   return (
@@ -30,7 +31,7 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <a
-              href="https://wa.me/5521991784378"
+              href={WHATSAPP_TEST}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-[#C67C2E] hover:bg-[#A66624] text-white text-lg font-bold rounded-lg shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2"
@@ -39,7 +40,7 @@ export const Hero = () => {
               COMEÇAR AGORA
             </a>
             <a
-              href="https://wa.me/5521991784378"
+              href={WHATSAPP_TEST}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white text-gray-700 hover:text-[#C67C2E] border-2 border-gray-200 hover:border-[#C67C2E] text-lg font-bold rounded-lg transition-all flex items-center justify-center"

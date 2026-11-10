@@ -40,6 +40,86 @@ function fail(message) {
 
 const expectedPrices = ["24.90", "69.90", "130.00", "250.00"];
 
+function readSource(rel) {
+  return fs.readFileSync(path.join(root, rel), "utf8");
+}
+
+const siteSource = readSource("src/app/content/site.ts");
+const trialMatch = siteSource.match(/export const WHATSAPP_TEST = "(https:\/\/wa\.me\/\d+)"/);
+if (!trialMatch) fail("WHATSAPP_TEST must be the https://wa.me free-trial link in site.ts");
+const whatsappTest = trialMatch[1];
+if (/coffeeplay\.tv/i.test(siteSource)) fail("site.ts still references coffeeplay.tv");
+const planLinks = siteSource.match(/\blink:\s*WHATSAPP_TEST\b/g) || [];
+if (planLinks.length !== 4) fail(`every plan link must be WHATSAPP_TEST (found ${planLinks.length})`);
+if (/link:\s*"https?:/i.test(siteSource)) fail("plan links must not be hardcoded URLs");
+
+for (const file of [
+  "src/app/components/Navbar.tsx",
+  "src/app/components/Footer.tsx",
+  "src/app/components/Hero.tsx",
+  "src/app/components/PageHero.tsx",
+  "src/app/components/FloatingButtons.tsx",
+  "src/app/pages/TesteGratisPage.tsx",
+]) {
+  const source = readSource(file);
+  if (/coffeeplay\.tv|LOGIN_URL/i.test(source)) fail(`${file} still points at coffeeplay.tv`);
+  if (!source.includes("WHATSAPP_TEST")) fail(`${file} must reuse WHATSAPP_TEST`);
+}
+
+const navbarSource = readSource("src/app/components/Navbar.tsx");
+const navbarWhatsapp = navbarSource.match(/href=\{WHATSAPP_TEST\}/g) || [];
+if (navbarWhatsapp.length !== 4) {
+  fail(`Navbar desktop and mobile client-area and trial links must use WHATSAPP_TEST (found ${navbarWhatsapp.length})`);
+}
+const footerSource = readSource("src/app/components/Footer.tsx");
+if ((footerSource.match(/href=\{WHATSAPP_TEST\}/g) || []).length !== 1) {
+  fail("Footer client-area link must use WHATSAPP_TEST");
+}
+if (!footerSource.includes("WHATSAPP_SUPPORT")) fail("Footer support number must stay on WHATSAPP_SUPPORT");
+
+const pricingSource = readSource("src/app/components/Pricing.tsx");
+if (/coffeeplay\.tv|LOGIN_URL|wa\.me/i.test(pricingSource)) fail("Pricing.tsx must not hardcode a checkout or WhatsApp URL");
+if (!pricingSource.includes("plan.link")) fail("Pricing.tsx must use plan.link");
+const schemaSource = readSource("src/app/seo/structuredData.ts");
+if (/coffeeplay\.tv/i.test(schemaSource)) fail("structured data still references coffeeplay.tv");
+if (!schemaSource.includes("url: plan.link")) fail("offer URL must follow plan.link");
+
+function fold(value) {
+  return stripTags(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function anchors(html) {
+  return [...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)].map((match) => {
+    const hrefMatch = match[1].match(/\bhref=["']([^"']*)["']/i);
+    return {
+      href: hrefMatch ? decode(hrefMatch[1]) : "",
+      text: fold(match[2]),
+    };
+  });
+}
+
+function ctaKind(text) {
+  if (text === "assinar agora") return "subscribe";
+  if (text === "central do assinante" || text === "area do cliente") return "client";
+  if (
+    text === "teste gratis" ||
+    text === "teste gratis agora" ||
+    text === "teste gratis 4 horas" ||
+    text === "pedir teste de 4 horas" ||
+    text === "comecar agora"
+  ) {
+    return "trial";
+  }
+  return null;
+}
+
+function isCheckoutHref(href) {
+  return /coffeeplay\.tv/i.test(href) || /\/(?:store|cart|checkout)(?:\/|$|\?)/i.test(href);
+}
+
 for (const route of manifest) {
   const file = path.join(dist, route.file);
   if (!fs.existsSync(file)) fail(`missing file ${route.file}`);
@@ -128,10 +208,35 @@ for (const route of manifest) {
     for (const offer of service.offers) {
       if (!offer.name) fail(`${route.path} offer missing name`);
       if (offer.priceCurrency !== "BRL") fail(`${route.path} offer currency`);
-      if (!String(offer.url).startsWith("https://coffeeplay.tv/store/")) fail(`${route.path} offer url`);
+      if (offer.url !== whatsappTest) fail(`${route.path} offer url must be the free-trial WhatsApp`);
+      if (isCheckoutHref(String(offer.url))) fail(`${route.path} offer url still points at checkout`);
       if (offer.availability !== "https://schema.org/InStock") fail(`${route.path} offer availability`);
     }
   }
+
+  const links = anchors(html);
+  let subscribe = 0;
+  let clientArea = 0;
+  let trial = 0;
+  for (const link of links) {
+    if (isCheckoutHref(link.href)) {
+      fail(`${route.path} link "${link.text}" still points at checkout (${link.href})`);
+    }
+    const kind = ctaKind(link.text);
+    if (!kind) continue;
+    if (kind === "trial" && link.text === "teste gratis" && link.href === "/teste-gratis") continue;
+    if (link.href !== whatsappTest) {
+      fail(`${route.path} CTA "${link.text}" must use the free-trial WhatsApp`);
+    }
+    if (kind === "subscribe") subscribe += 1;
+    else if (kind === "client") clientArea += 1;
+    else trial += 1;
+  }
+  if (clientArea !== 2) fail(`${route.path} expected 2 client-area links, found ${clientArea}`);
+  if (trial < 1) fail(`${route.path} missing a free-trial WhatsApp CTA`);
+  const expectsPlans = route.path === "/" || route.path === "/planos";
+  if (expectsPlans && subscribe !== 4) fail(`${route.path} expected 4 plan CTAs, found ${subscribe}`);
+  if (!expectsPlans && subscribe !== 0) fail(`${route.path} unexpected plan CTA count ${subscribe}`);
   if (route.kind !== "home" && route.kind !== "notfound" && !types.includes("BreadcrumbList")) {
     fail(`${route.path} missing BreadcrumbList`);
   }
