@@ -618,4 +618,91 @@ Canais adultos são opcionais. Em casa com criança, veja no teste se o grupo ap
 Comece pela caixa que já está na HDMI, na rede que a sala tem, com uma tela por vez. As quatro horas dizem se essa combinação te serve, antes de qualquer período mais longo.
 `,
   },
+  {
+    kind: "article",
+    slug: "iptv-na-smart-tv",
+    path: "/blog/iptv-na-smart-tv",
+    title: "IPTV na Smart TV: Samsung, LG, Sony e Android TV | Coffee Play",
+    description:
+      "Samsung, LG, Sony e Android TV estão na lista do Coffee Play. Veja quando a Smart TV basta, os 10 Mega, a tela única e o teste grátis de 4 horas.",
+    h1: "IPTV na Smart TV: Samsung, LG, Sony e Android TV",
+    eyebrow: "Guia",
+    intro:
+      "A Smart TV já está na parede, com o controle no sofá. Samsung, LG, Sony e Android TV entram na lista do Coffee Play. Dá para testar nelas antes de comprar uma caixa, desde que a loja da TV tenha um player e a internet da sala chegue aos 10 Mega.",
+    related: [
+      { href: "/instalacao/smart-tv", label: "Coffee Play na Smart TV" },
+      relatedBase.aparelho,
+      { href: "/blog/iptv-no-fire-stick", label: "IPTV no Fire Stick" },
+      relatedBase.faq,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica
+
+Samsung, LG, Sony e Android TV estão no grupo de Smart TVs compatíveis. A página [Coffee Play na Smart TV](/instalacao/smart-tv) repete essa lista. A home diz que não importa o dispositivo, o Coffee Play roda liso, e a instalação é em segundos. O suporte, de segunda a segunda e 24 horas, entra quando a loja da TV não mostra o que você esperava.
+
+Não há, publicado, um modelo, uma polegada ou um ano obrigatório. O site não separa plano por marca. A televisão da sala e um TV Box usam o mesmo acesso. O que muda é a loja daquele televisor e o Wi-Fi atrás do painel.
+
+Android TV aparece em duas páginas. Se o televisor da parede já é Android TV, ele está na lista de Smart TV. A página de [Android e TV Box](/instalacao/android-tv-box) cobre o mesmo sistema numa caixa HDMI: MXQ, Mi Box, Fire Stick e Roku, além de Android TV. O mapa geral está em [onde instalar](/instalacao).
+
+## Comece pela TV que você já tem
+
+O controle da sala já existe. Não há segunda caixa na tomada, nem um celular que precise ficar acordado para a imagem continuar. Por isso a Smart TV é o primeiro teste. O acesso chega no WhatsApp ou no e-mail, na hora, quando o teste é pedido ou o pagamento é confirmado.
+
+O [teste grátis de 4 horas](/teste-gratis) cabe nessa TV, no horário em que a casa assiste. Peça no WhatsApp. Os dados chegam na hora. Quatro horas no televisor mostram a loja, a lista e a rede da sala. Se a imagem abrir e ficar estável, o caminho está resolvido. Se a loja não tiver um player, uma caixa na HDMI entra depois. Quem ainda compara aparelhos pode ler [qual aparelho usar](/blog/melhor-aparelho-para-iptv).
+
+## A loja não é a mesma em toda marca
+
+Samsung, LG e Sony não dividem a mesma loja. Android TV tem outra. O Coffee Play não impõe um aplicativo e não publica um player oficial. IPTV Smarters, TiviMate e XCIPTV são exemplos de tela, em [apps](/apps). Nenhum deles é aplicativo da marca.
+
+O guia do [TiviMate](/apps/tivimate) registra um limite: Smart TV Samsung, LG ou Sony sem Android pode não ter esse aplicativo na loja. A lista continua válida em outro player da própria TV. Se nenhum aceitar o acesso, um [TV Box](/instalacao/android-tv-box) ou um [Fire Stick](/instalacao/fire-stick) na HDMI resolve sem trocar o televisor. Não compre a caixa só porque um app sumiu da busca, se outro já abre a lista.
+
+Instale pela loja do televisor, quando o aplicativo estiver ali. Arquivo solto ou APK de site desconhecido não faz parte do atendimento publicado. Se a busca voltar vazia, chame o WhatsApp e diga a marca. Um passo achado fora do site, pedindo arquivo que a loja não tem, não é o caminho descrito.
+
+A mensagem do WhatsApp ou do e-mail manda nos campos: um link de lista, ou servidor, usuário e senha. No primeiro caso o player chama de playlist ou M3U. No segundo, de Xtream, API ou login. Use o formato escrito. Não invente um servidor e não complete um link cortado pela quebra de linha. Cole sem espaço nas pontas.
+
+## Os 10 Mega atrás do painel
+
+A exigência é uma conexão de no mínimo 10 Mega e um aparelho compatível: TV, celular, TV Box ou computador. Dez mega é o piso informado, não uma garantia de 4K com a casa cheia. Meça ao lado da TV. O número bom na cozinha não é o número atrás do televisor. Aproximar o roteador ou tirá-lo de um armário muda mais do que insistir no mesmo canal. O site não exige cabo. Se a TV tiver entrada de rede, um cabo numa noite de teste separa as causas: se no cabo firma e no Wi-Fi pula, o ajuste é a rede da sala.
+
+Canais em SD e HD pedem menos do que um canal em 4K. O catálogo inclui 4K, Full HD, HD e SD, além de filmes e séries on demand, e passa de 90.000 conteúdos. O site não diz que todo canal existe nas quatro faixas. A TV ser 4K não cria qualidade que a conexão não entrega. Se o 4K corta e o HD segura, a sala está no limite da faixa mais pesada. A conta está em [qual internet para 4K](/blog/internet-para-iptv-4k). Pause download e videochamada por uns dez minutos. Se o canal firmar, o limite era a rede dividida.
+
+## Uma tela, mesmo na TV grande
+
+Os planos padrão são para 1 tela. A Smart TV e o celular no sofá, com o mesmo login, são duas reproduções. Uma tende a cair, e a culpa parece ser da televisão. Feche o aplicativo nos outros aparelhos, espere um minuto e deixe só a TV.
+
+A pergunta sobre mais telas está nas [dúvidas frequentes](/faq). Pontos adicionais têm preços especiais, fora deste guia. Se a sala e o quarto precisam funcionar juntos, pergunte no WhatsApp antes de assumir o valor.
+
+O Chromecast, na página de [celular](/instalacao/celular), é outro arranjo: o telefone transmite para a TV e precisa continuar acordado. A Smart TV que abre o player sozinha não depende disso.
+
+O guia de programação aparece quando a lista e o player mostram a grade. Grade em branco não apaga o canal. Canais adultos são opcionais. Em casa com criança, veja no teste se o grupo aparece e fale com o suporte se quiser tirá-lo da frente, sem arquivo fora da loja.
+
+## As quatro horas na própria TV
+
+Use o teste na televisão da sala, não só no celular ao lado do roteador.
+
+- Deixe a TV na rede principal. A rede de visitas, que isola aparelhos, tira a TV do caminho.
+- Fique cerca de dez minutos num canal ao vivo, com a casa quieta.
+- Abra um filme ou uma série on demand. Os dois estão nos benefícios.
+- Se a grade aparecer, ela é o guia do plano. Se não aparecer, o canal ainda pode tocar.
+- Veja se outro aparelho ficou com o mesmo login.
+
+Se a lista não carrega, releia a mensagem antes de culpar a marca da TV. Se o mesmo acesso abre no celular, na mesma rede, e falha só na Smart TV, a lista está chegando. O ajuste é a loja, o player ou o Wi-Fi atrás do painel. Se os dois picotam, com uma tela só e a medição ao lado da TV acima dos 10 Mega, anote aparelho, Wi-Fi, outra tela e o canal. O WhatsApp do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, 24 horas.
+
+## Quando uma caixa faz mais sentido
+
+A caixa entra quando a loja da TV não oferece um player que aceite a lista. Fire Stick, MXQ, Mi Box e Roku usam o mesmo acesso na HDMI, sem trocar o televisor. O guia [IPTV no Fire Stick](/blog/iptv-no-fire-stick) detalha o stick. As outras caixas estão em [Android e TV Box](/instalacao/android-tv-box).
+
+Não troque de televisor se o que falta é sinal na sala. Aparelho novo não cria mega. Também não compre uma caixa antes das quatro horas na TV que você já tem. O site não aponta um modelo oficial.
+
+Se a TV nem abre uma loja, o [celular](/instalacao/celular) ou o [computador](/instalacao/pc) servem para ver a lista uma vez. Android, iPhone/iPad, Windows, Mac e Linux estão entre os compatíveis.
+
+## Se o teste convencer
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O preço da TV não está no site, e este texto não inventa um. O televisor é seu. O Coffee Play cobra o período do acesso.
+
+Comece pela Smart TV que já está na parede, com uma tela por vez. As quatro horas dizem se essa combinação te serve, antes de um período longo e antes de uma caixa nova.
+`,
+  },
 ];
