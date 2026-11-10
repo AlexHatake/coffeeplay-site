@@ -1,11 +1,12 @@
 import React from "react";
+import { WHATSAPP_TEST } from "../content/site";
 
 export const FloatingButtons = () => {
   return (
     <div className="fixed bottom-6 left-6 z-50 flex flex-col gap-4">
       {/* WhatsApp Button on LEFT - Custom SVG for Authentic Look */}
       <a
-        href="https://wa.me/5521991784378"
+        href={WHATSAPP_TEST}
         target="_blank"
         rel="noopener noreferrer"
         className="w-16 h-16 bg-[#25D366] hover:bg-[#1ebc57] rounded-full flex items-center justify-center text-white shadow-lg shadow-green-500/40 hover:scale-110 transition-all duration-300 animate-pulse"

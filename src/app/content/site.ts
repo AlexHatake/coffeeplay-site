@@ -11,7 +11,6 @@ export const WHATSAPP_SUPPORT = "https://wa.me/5521987998271";
 export const EMAIL = "coffeeplayy@gmail.com";
 export const PHONE_DISPLAY = "(21) 98799-8271";
 export const PHONE_E164 = "+55-21-98799-8271";
-export const LOGIN_URL = "https://coffeeplay.tv/login";
 
 export const HOME_TITLE = "IPTV Premium: Canais 4K e Teste Grátis | Coffee Play";
 export const HOME_DESCRIPTION =
@@ -36,7 +35,7 @@ export const plans: Plan[] = [
     monthlyLabel: "24,90",
     schemaPrice: "24.90",
     featured: false,
-    link: "https://coffeeplay.tv/store/coffeplay-servicos",
+    link: WHATSAPP_TEST,
   },
   {
     period: "TRIMESTRAL",
@@ -46,7 +45,7 @@ export const plans: Plan[] = [
     schemaPrice: "69.90",
     featured: true,
     save: "Economize R$ 4,80",
-    link: "https://coffeeplay.tv/store/planos-90-dias",
+    link: WHATSAPP_TEST,
   },
   {
     period: "SEMESTRAL",
@@ -56,7 +55,7 @@ export const plans: Plan[] = [
     schemaPrice: "130.00",
     featured: false,
     save: "Economize R$ 19,40",
-    link: "https://coffeeplay.tv/store/planos-180-dias",
+    link: WHATSAPP_TEST,
   },
   {
     period: "ANUAL",
@@ -66,7 +65,7 @@ export const plans: Plan[] = [
     schemaPrice: "250.00",
     featured: false,
     save: "Economize R$ 48,80",
-    link: "https://coffeeplay.tv/store/planos-365-dias",
+    link: WHATSAPP_TEST,
   },
 ];
 
