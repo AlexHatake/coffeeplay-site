@@ -50,6 +50,7 @@ export const Footer = () => {
             <li><Link to="/blog/esporte-filmes-e-series" className="hover:text-[#C67C2E] transition-colors">Esporte, filmes e séries</Link></li>
             <li><Link to="/blog/iptv-no-fire-stick" className="hover:text-[#C67C2E] transition-colors">IPTV no Fire Stick</Link></li>
             <li><Link to="/blog/iptv-na-smart-tv" className="hover:text-[#C67C2E] transition-colors">IPTV na Smart TV</Link></li>
+            <li><Link to="/blog/iptv-no-computador" className="hover:text-[#C67C2E] transition-colors">IPTV no computador</Link></li>
             <li><Link to="/apps/iptv-smarters-pro" className="hover:text-[#C67C2E] transition-colors">IPTV Smarters</Link></li>
             <li><Link to="/apps/tivimate" className="hover:text-[#C67C2E] transition-colors">TiviMate</Link></li>
             <li><Link to="/apps/xciptv" className="hover:text-[#C67C2E] transition-colors">XCIPTV</Link></li>

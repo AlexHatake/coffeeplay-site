@@ -365,7 +365,7 @@ Celular no bolso com a tela bloqueada não deve ficar reproduzindo junto com a T
 
 ## Computador
 
-Windows, Mac e Linux servem para quem assiste na mesa, ou para testar se a lista abre antes de mexer na TV. É um bom primeiro passo nas quatro horas de teste: se no computador, ligado no cabo, a imagem vem, e na TV não, você isolou o problema na sala. A página é [Coffee Play no PC](/instalacao/pc).
+Windows, Mac e Linux servem para quem assiste na mesa, ou para testar se a lista abre antes de mexer na TV. É um bom primeiro passo nas quatro horas de teste: se no computador, ligado no cabo, a imagem vem, e na TV não, você isolou o problema na sala. A página é [Coffee Play no PC](/instalacao/pc). O guia [IPTV no computador](/blog/iptv-no-computador) detalha esse uso.
 
 ## Como decidir sem comprar à toa
 
@@ -703,6 +703,97 @@ Se a TV nem abre uma loja, o [celular](/instalacao/celular) ou o [computador](/i
 Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O preço da TV não está no site, e este texto não inventa um. O televisor é seu. O Coffee Play cobra o período do acesso.
 
 Comece pela Smart TV que já está na parede, com uma tela por vez. As quatro horas dizem se essa combinação te serve, antes de um período longo e antes de uma caixa nova.
+`,
+  },
+  {
+    kind: "article",
+    slug: "iptv-no-computador",
+    path: "/blog/iptv-no-computador",
+    title: "IPTV no computador: Windows, Mac e Linux | Coffee Play",
+    description:
+      "Windows, Mac e Linux estão na lista do Coffee Play. Confira os 10 Mega, a tela única, o acesso no WhatsApp e o teste grátis de 4 horas na mesa.",
+    h1: "IPTV no computador: Windows, Mac e Linux",
+    eyebrow: "Guia",
+    intro:
+      "O computador já está na mesa, com teclado e, muitas vezes, cabo de rede. Windows, Mac e Linux entram na lista do Coffee Play. Dá para assistir ali e também para ver se a lista abre antes de culpar a TV da sala.",
+    related: [
+      { href: "/instalacao/pc", label: "Coffee Play no computador" },
+      relatedBase.aparelho,
+      relatedBase.travando,
+      relatedBase.faq,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica sobre o computador
+
+Windows, Mac e Linux estão na página [Coffee Play no computador](/instalacao/pc). A condição é a mesma dos outros aparelhos: uma conexão de no mínimo 10 Mega. A home resume a compatibilidade numa frase: não importa o dispositivo, o Coffee Play roda liso, e a instalação é em segundos. O suporte, de segunda a segunda e 24 horas, entra quando a lista não abre na mesa.
+
+O site não publica um modelo de computador, uma quantidade de memória nem um sistema preferido. Também não separa plano por Windows, Mac ou Linux. A televisão da sala e o computador usam o mesmo acesso. O que muda é onde você assiste e como a rede chega nessa máquina. O mapa dos outros aparelhos está em [onde instalar](/instalacao).
+
+## Assistir na mesa e conferir a lista
+
+Há dois usos claros para o computador. O primeiro é assistir ali mesmo: na escrivaninha, no notebook, num quarto sem televisor. O segundo é conferir se a lista abre antes de mexer na TV. O guia de [qual aparelho usar](/blog/melhor-aparelho-para-iptv) cita esse segundo uso. Aqui o foco é a máquina em si.
+
+O catálogo não muda com o sistema. O site fala em mais de 90.000 conteúdos, canais em 4K, Full HD, HD e SD, filmes e séries on demand, canais adultos opcionais e guia de programação. Não existe um pacote só de computador. O benefício do plano também cita assistir no celular ou na TV. O computador entra pela lista de compatíveis, com a mesma exigência de rede.
+
+## Windows, Mac e Linux no mesmo acesso
+
+Os três nomes aparecem juntos. O Coffee Play não publica diferença de preço, de grade ou de formato entre eles. A mensagem que chega no WhatsApp ou no e-mail vale para qualquer um. Pode ser um link de lista, ou servidor, usuário e senha. Os dois formatos estão em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). Cole sem espaço nas pontas. Não invente um servidor que a mensagem não trouxe, e não complete um link cortado pela quebra de linha.
+
+O envio é imediato. Pedido o teste ou confirmado o pagamento, os dados chegam no WhatsApp ou no e-mail. Essa mensagem é a fonte. Se a tela do player pede um campo que ela não traz, pare e fale com o suporte. Chutar endereço é o atalho mais curto para uma lista que não abre.
+
+Um notebook e um desktop da mesma casa continuam sendo aparelhos. O plano padrão é de 1 tela. Abrir o acesso nos dois ao mesmo tempo, ou no computador e na TV juntos, sai do que o plano descreve. A pergunta sobre mais telas está nas [dúvidas frequentes](/faq).
+
+## Sem aplicativo da marca
+
+O Coffee Play não impõe um player e não publica um aplicativo oficial para Windows, Mac ou Linux. IPTV Smarters, TiviMate e XCIPTV são exemplos de tela em outros aparelhos, reunidos em [apps](/apps). Nenhum deles é aplicativo da marca, e os guias deles falam de celular Android, Android TV e TV Box. Esses nomes não são o caminho obrigatório do computador.
+
+Se o sistema tiver uma loja e nela existir um player que aceite M3U ou Xtream, case os campos com a mensagem. Instale por essa loja. Arquivo solto ou página de download desconhecida não faz parte do atendimento publicado. Se a loja não mostrar um player que você reconheça, chame o WhatsApp e diga se a máquina é Windows, Mac ou Linux.
+
+O navegador não está descrito como player oficial. Se o link da lista numa aba não toca, volte à mensagem, confira o formato e use um player que peça aqueles campos. O suporte, 24 horas, lê melhor um print em que a senha não aparece.
+
+## Os 10 Mega na própria máquina
+
+A exigência é uma conexão de no mínimo 10 Mega e um aparelho compatível: TV, celular, TV Box ou computador. Dez mega é o piso informado, não uma garantia de 4K com a casa cheia. Meça no computador que vai reproduzir. O número bom no celular, ao lado do roteador, não é o número do notebook no outro quarto.
+
+Cabo de rede, quando o computador tem entrada, tira o Wi-Fi do caminho. O site não exige cabo. Ele só torna o diagnóstico mais claro: se no cabo a imagem firma e no Wi-Fi volta a pular, o ajuste é a rede, não um plano novo.
+
+Canais em SD e HD pedem menos do que um canal em 4K. O site não diz que todo canal existe nas quatro faixas. Se o 4K corta e o HD segura, a máquina está no limite da faixa mais pesada. Não é obrigatório assistir tudo em 4K. A conta está em [qual internet para 4K](/blog/internet-para-iptv-4k).
+
+O próprio computador divide a rede. Atualização do sistema, backup de fotos e um download na mesma máquina comem a margem que o canal precisava. Pause isso e veja se a imagem firma por uns dez minutos. Se firmar, o limite era o uso da máquina, não a lista. Se a imagem congela em todo canal, com a casa quieta, siga o guia de [imagem travando](/blog/iptv-travando).
+
+## Uma tela por vez
+
+Os planos padrão são para 1 tela. O computador na mesa e a Smart TV na sala, com o mesmo login, são duas reproduções. Uma tende a cair, e a culpa parece ser do sistema. Feche o player nos outros aparelhos, espere um minuto e deixe só o computador.
+
+Pontos adicionais têm preços especiais, fora deste guia. Se a mesa e a sala precisam funcionar juntas, pergunte no WhatsApp antes de assumir o valor. Canais adultos são opcionais. Em casa com criança, veja no teste se o grupo aparece e fale com o suporte se quiser tirá-lo da frente. O guia de programação aparece quando a lista e o player mostram a grade. Grade em branco não apaga o canal.
+
+## As quatro horas na máquina que você usa
+
+O [teste grátis de 4 horas](/teste-gratis) mostra o computador na sua rede, no horário em que você assiste. Peça no WhatsApp. Os dados chegam na hora.
+
+- Deixe a máquina na rede principal. A rede de visitas, que isola aparelhos, atrapalha quando o computador precisa enxergar o resto da casa.
+- Fique cerca de dez minutos num canal ao vivo, com download e videochamada pausados.
+- Abra um filme ou uma série on demand. Os dois estão nos benefícios publicados.
+- Se a grade aparecer, ela é o guia de programação do plano. Se não aparecer, o canal ainda pode tocar.
+- Veja se outro aparelho ficou com o mesmo login.
+
+Se a lista não carrega, releia a mensagem: formato trocado, senha com letra parecida, link pela metade. Se o mesmo acesso abre no celular, na mesma rede, e falha só no computador, a lista está chegando. O ajuste é o player, a loja ou o Wi-Fi dessa máquina.
+
+## Quando o computador abre e a TV não
+
+Esse retrato é o mais útil das quatro horas. Se no computador, no cabo, a imagem vem, e na TV da sala não, o acesso em si está entregando. O próximo passo é a sala: Wi-Fi atrás do painel, loja da Smart TV ou uma caixa na HDMI.
+
+Samsung, LG, Sony e Android TV estão em [Coffee Play na Smart TV](/instalacao/smart-tv). TV Box como MXQ, Mi Box, Fire Stick e Roku estão em [Android e TV Box](/instalacao/android-tv-box). O site não pede um aparelho novo para fazer o teste. Aparelho novo não cria mega.
+
+Se os dois picotam, com uma tela só e a medição no computador acima dos 10 Mega, anote o sistema, se está no Wi-Fi ou no cabo, se havia outra tela e em qual canal a falha aparece. O WhatsApp do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, com atendimento 24 horas.
+
+## Se o teste convencer
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O preço do computador não está no site. A máquina é sua. O Coffee Play cobra o período do acesso.
+
+Comece pelo Windows, Mac ou Linux que já está em casa, com uma tela por vez, na rede que essa máquina recebe. As quatro horas dizem se essa combinação te serve, antes de um período mais longo.
 `,
   },
 ];
