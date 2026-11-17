@@ -796,4 +796,97 @@ Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 
 Comece pelo Windows, Mac ou Linux que já está em casa, com uma tela por vez, na rede que essa máquina recebe. As quatro horas dizem se essa combinação te serve, antes de um período mais longo.
 `,
   },
+  {
+    kind: "article",
+    slug: "epg-guia-de-programacao-iptv",
+    path: "/blog/epg-guia-de-programacao-iptv",
+    title: "EPG no IPTV: o guia de programação | Coffee Play",
+    description:
+      "O guia de programação (EPG) mostra o que passa agora. Veja como atualizar a grade no Smarters, TiviMate e XCIPTV se ela vier vazia ou fora de hora.",
+    h1: "EPG no IPTV: o guia de programação",
+    eyebrow: "Guia",
+    intro:
+      "A grade vazia não apaga o canal. Ela só deixa de dizer o nome do programa e o horário. No Coffee Play esse guia está nos benefícios, como Guia de Programação (EPG). Ele depende da lista e do aplicativo. Dá para ligar, atualizar e acertar o relógio sem trocar de plano.",
+    related: [
+      relatedBase.m3u,
+      { href: "/blog/esporte-filmes-e-series", label: "Esporte, filmes e séries" },
+      relatedBase.travando,
+      relatedBase.teste,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que a grade mostra
+
+O guia de programação é a faixa do canal ao vivo: o nome do que está passando, a hora em que começa e, quando a lista traz, o que vem depois. EPG é só o nome curto dessa grade. No site ela aparece junto com canais em 4K, Full HD, HD e SD, filmes e séries on demand e canais adultos opcionais.
+
+Quem procura um jogo confirma o canal pelo nome na grade. O texto sobre [esporte, filmes e séries](/blog/esporte-filmes-e-series) explica essa busca. Aqui o assunto é o guia: de onde ele vem e o que fazer quando o horário não bate.
+
+A faixa descreve canal ao vivo. Filme e série on demand não ficam nela, e ela também não é um calendário do mês. O que costuma aparecer é o agora e um trecho à frente. Um programa de domingo pode não estar visível na quarta.
+
+## De onde os horários vêm
+
+Quem desenha a tabela é o player. Os nomes e as horas vêm da lista, quando ela inclui a grade. O site do Coffee Play não publica um endereço separado de EPG para colar. A mensagem do WhatsApp ou do e-mail continua sendo a fonte: um link, ou servidor, usuário e senha. O envio é imediato, no teste ou depois do pagamento.
+
+A diferença dos formatos está em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). Com Xtream, o aplicativo pede o login e busca os canais e, se a lista trouxer, a grade. Com M3U, você cola um endereço só. A grade aparece se esse endereço carregar o guia junto. Não converta um no outro por conta própria. Campo trocado parece lista inválida, e lista que não abre também não mostra horário.
+
+Alguns players têm um campo extra, chamado EPG, XMLTV ou fonte do guia. Se a mensagem não trouxer esse endereço, deixe em branco. Um link de fórum mistura a grade de outra lista com os seus canais.
+
+## Onde ligar a grade
+
+O Coffee Play não impõe aplicativo. IPTV Smarters Pro, TiviMate e XCIPTV são exemplos, na página de [apps](/apps). A imagem do canal não depende da grade. Se o vídeo toca e o nome não aparece, o canal chegou. Falta o guia.
+
+Instale pela loja do aparelho. Arquivo solto ou APK não faz parte do atendimento. Se a loja da TV não tiver o player, veja [onde instalar](/instalacao) ou fale com o suporte. Os menus mudam de versão. O que se repete é o rótulo: EPG, guia, grade, atualizar, fuso ou ajuste de horas.
+
+## IPTV Smarters Pro
+
+No [IPTV Smarters Pro](/apps/iptv-smarters-pro), use o formato da mensagem, sem espaço nas pontas. A grade costuma ficar na área de canais ao vivo. Se vier em branco, procure nas configurações EPG, guia ou atualizar playlist.
+
+Atualizar é pedir de novo a mesma lista, não trocar o servidor. Espere terminar. Se todos os horários estiverem deslocados na mesma medida, procure o ajuste de horas do EPG. Não crie uma segunda playlist só para o guia.
+
+O plano padrão é de 1 tela. O app aberto no celular e na TV ao mesmo tempo não é falha de grade. É o limite das [dúvidas frequentes](/faq). Feche o outro aparelho antes de culpar a atualização.
+
+## TiviMate
+
+O [TiviMate](/apps/tivimate) é comum em Android TV, TV Box e Fire Stick. Smart TV Samsung, LG ou Sony sem Android pode não ter o app na loja. A lista segue válida em outro player, ou numa caixa em [Android e TV Box](/instalacao/android-tv-box) e no [Fire Stick](/instalacao/fire-stick). Não compre uma caixa só porque a grade de um app sumiu.
+
+Algumas funções internas do TiviMate são pagas no próprio aplicativo. O Coffee Play não publica esse preço, e este texto não inventa. Dá para ver a grade sem tratar esse extra como parte do plano.
+
+Escolha Xtream Codes ou M3U conforme a mensagem. Nas configurações, atualize o EPG da playlist que você adicionou. Se houver campo de fonte externa, não cole um endereço que a mensagem não trouxe. O desvio de horas, quando existe, fica no ajuste da grade. Se a loja do Fire Stick não mostrar o TiviMate, não use arquivo de fórum. Chame o suporte e diga o modelo.
+
+## XCIPTV
+
+O [XCIPTV](/apps/xciptv) aceita servidor, usuário e senha, ou um link de playlist. Se a grade não aparecer, os canais ainda podem estar lá. Procure EPG, guia ou horário nas configurações e atualize com os dados originais. Campo de endereço do guia, sem esse link na mensagem, fica vazio. URL de outra origem mostra o programa errado no canal certo. Se a loja não oferece o app, use outro player que já esteja instalado.
+
+## Quando a grade vem vazia
+
+Se nenhum canal tem nome, a opção pode estar desligada, a atualização pode não ter terminado, ou o formato colado não é o da mensagem. Confira Xtream e M3U, atualize uma vez e olhe de novo.
+
+Se uns canais têm grade e outros não, a lista pode não trazer horário para todos. O site não promete guia em cada canal e não diz quantos têm nome. Anote um que preenche e um que fica em branco.
+
+Se a lista inteira não abre, o problema é anterior à grade. Releia usuário, senha e link. Canal que toca com a faixa em branco não pede plano novo. Imagem que congela é rede ou segunda tela, no guia de [IPTV travando](/blog/iptv-travando). Atualizar o EPG não aumenta a internet. O mínimo publicado continua 10 Mega, perto do aparelho.
+
+## Quando o nome não é o programa
+
+O guia diz uma coisa e a tela mostra outra. Pode ser dado velho, ou canal casado com a linha errada. Atualize e compare o mesmo canal. Se vários continuarem errados, diga ao suporte o nome da grade e o que passou. Não complete com um EPG de desconhecido. Se a grade inteira estiver deslocada, o próximo passo é o relógio.
+
+## Quando o horário não bate
+
+Se toda a grade está adiantada ou atrasada na mesma quantidade de horas, o suspeito é o relógio. O agora corta o programa no meio, ou o que já acabou ainda aparece como atual. Confira data, hora e fuso do aparelho. Relógio manual, atrasado desde uma viagem, empurra tudo.
+
+Acerte o aparelho primeiro, com hora automática se existir. Só depois mexa no ajuste de horas do EPG. Corrigir nos dois lugares soma o erro: uma hora na TV mais uma hora no app viram duas. Se você já tinha mexido no ajuste, volte para zero, acerte o aparelho e veja se o agora coincide com o programa que está no ar.
+
+Desvio igual em todos os canais pede esse ajuste. Um canal fora, com o resto certo, não se resolve com fuso.
+
+A cópia antiga aparece quando a grade parece de ontem, com o relógio certo. Atualize o guia ou a playlist e espere terminar. Se a cópia sobrar, limpar o cache do player carrega a grade de novo. Guarde a mensagem original antes: alguns players esquecem usuário e senha quando os dados do app são apagados. Isso não conserta imagem picotada.
+
+## O que dizer ao suporte
+
+O atendimento é 24 horas, de segunda a segunda. O WhatsApp do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com. Diga o aplicativo, o aparelho, se a grade está vazia ou fora de hora, de quantas horas é o desvio, se o canal toca e se você já atualizou. Não mande a senha em grupo.
+
+O [teste grátis de 4 horas](/teste-gratis) serve para ver isso na sua TV, antes de um período longo. Peça no WhatsApp. Os dados chegam na hora. Confira se a grade aparece, se o horário bate e se o canal ao vivo toca com o nome certo.
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão ou boleto. Não há, no site, um adicional só para liberar o guia.
+`,
+  },
 ];
