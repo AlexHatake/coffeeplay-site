@@ -889,4 +889,89 @@ O [teste grátis de 4 horas](/teste-gratis) serve para ver isso na sua TV, antes
 Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão ou boleto. Não há, no site, um adicional só para liberar o guia.
 `,
   },
+  {
+    kind: "article",
+    slug: "iptv-no-celular",
+    path: "/blog/iptv-no-celular",
+    title: "IPTV no celular: Android, iPhone e iPad | Coffee Play",
+    description:
+      "Android, iPhone e iPad estão na lista do Coffee Play. Confira os 10 Mega, a tela única, o Wi-Fi e o teste grátis de 4 horas direto no seu celular.",
+    h1: "IPTV no celular: Android, iPhone e iPad",
+    eyebrow: "Guia",
+    intro:
+      "O celular é o aparelho que quase todo mundo já tem na mão. O Coffee Play lista Android e iOS (iPhone e iPad) entre os compatíveis, e o acesso chega no próprio WhatsApp. Vale usar o celular tanto para assistir quanto para ver se a lista abre antes de mexer na TV.",
+    related: [
+      { href: "/instalacao/celular", label: "Coffee Play no celular" },
+      { href: "/blog/iptv-no-chromecast", label: "Transmitir para a TV" },
+      relatedBase.travando,
+      relatedBase.teste,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica sobre o celular
+
+A página [Coffee Play no celular](/instalacao/celular) diz que dá para assistir em Android e em iOS (iPhone e iPad), e que, com Chromecast, a imagem pode ser transmitida do celular para a TV. A condição é a de todos os aparelhos: uma conexão de no mínimo 10 Mega. Entre os benefícios do plano está assistir no celular ou na TV, e o suporte atende de segunda a segunda, 24 horas.
+
+O site não publica modelo mínimo de celular, versão de sistema, memória nem espaço livre. Também não separa plano por Android ou iPhone. O catálogo é o mesmo em qualquer aparelho: mais de 90.000 conteúdos, canais em 4K, Full HD, HD e SD, filmes e séries on demand, guia de programação (EPG) e canais adultos opcionais. O mapa dos outros aparelhos está em [onde instalar](/instalacao).
+
+## Como o acesso chega
+
+Pedido o teste ou confirmado o pagamento, o envio é imediato e automático, no WhatsApp ou no e-mail. A mensagem pode trazer um link de lista ou servidor, usuário e senha. Os dois formatos estão explicados em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). No celular, o WhatsApp tem uma vantagem: a mensagem está no mesmo aparelho em que você vai colar os dados, sem digitar de novo.
+
+Copie sem espaço nas pontas. Se um link longo foi cortado pela quebra de linha, peça o reenvio ao suporte em vez de completar no chute. Não invente um servidor que a mensagem não trouxe, e não use dados de tutorial de terceiros: eles não abrem o Coffee Play.
+
+## Escolha o player pela loja do aparelho
+
+O Coffee Play não impõe aplicativo e não publica um app oficial da marca. A página de [apps](/apps) mostra como o [IPTV Smarters Pro](/apps/iptv-smarters-pro) e o [XCIPTV](/apps/xciptv) pedem o acesso, e os dois guias falam de celular Android. O [TiviMate](/apps/tivimate) é pensado para Android TV e TV Box, não para o celular.
+
+Instale sempre pela loja do próprio celular, quando o player estiver lá. Arquivo solto ou página de download desconhecida não faz parte do atendimento publicado, e este texto não indica nenhum. No iPhone e no iPad, o site não cita um player específico: se a loja não mostrar um que aceite M3U ou Xtream, chame o suporte no WhatsApp e diga o modelo antes de seguir um passo a passo de fora.
+
+O que não muda de um player para outro é o casamento dos campos. Se a mensagem trouxe servidor, usuário e senha, use o modo Xtream. Se trouxe um link, use M3U ou playlist por URL. Misturar os dois é o erro que mais parece “senha inválida”.
+
+## Wi-Fi, dados móveis e os 10 Mega
+
+Dez mega é o piso informado pelo site, não uma garantia de 4K com a casa cheia. Meça no próprio celular, no cômodo em que você vai assistir, e não só ao lado do roteador. O número bom na cozinha e ruim no quarto explica muita imagem picotada. A conta entre HD e 4K está em [qual internet para 4K](/blog/internet-para-iptv-4k).
+
+O Coffee Play não publica regra específica sobre dados móveis. A exigência de 10 Mega vale para a conexão, seja qual for. Se você pretende assistir fora do Wi-Fi, o limite do seu plano de dados é com a sua operadora, e este guia não inventa uma franquia nem um consumo por hora. Faça o teste de quatro horas na rede que você realmente vai usar.
+
+Canais em SD e HD pedem menos do que um canal em 4K, e o site não diz que todo canal existe nas quatro faixas. Se o 4K corta e o HD segura, o celular está no limite da faixa mais pesada. Assistir tudo em 4K não é obrigatório.
+
+## Uma tela por vez
+
+Os planos padrão são para 1 tela. O mesmo login aberto no celular e na TV ao mesmo tempo são duas reproduções, e uma delas tende a cair. A culpa parece ser do aplicativo, mas é o limite descrito nas [dúvidas frequentes](/faq). Feche o player nos outros aparelhos, espere um minuto e deixe só o celular.
+
+Para mais telas simultâneas, o site fala em preços especiais para pontos adicionais, sem publicar o valor. Pergunte no WhatsApp antes de assumir qualquer número.
+
+## Celular como controle remoto da TV
+
+Quando a TV tem Chromecast, o celular manda a imagem para ela. O fluxo está no guia de [IPTV no Chromecast](/blog/iptv-no-chromecast). Nesse caso a rede da casa passa a ser a rede do celular e a do Chromecast ao mesmo tempo, e as duas precisam estar no mesmo Wi-Fi. Se a imagem pula só na TV, confira o sinal perto dela, não o plano.
+
+Também vale lembrar que o celular continua sendo uma tela. Transmitir e deixar o aplicativo aberto em outro aparelho com o mesmo login volta ao limite de uma tela.
+
+## Bateria, aquecimento e notificações
+
+Vídeo ao vivo por muito tempo esquenta o aparelho e gasta bateria. O site não publica nada sobre isso, então vale só o bom senso: carregador por perto em jogo longo, e capa fina se o aparelho esquenta demais. Se o canal cortar de repente, pode ser uma chamada, um aviso de bateria ou o próprio sistema fechando o aplicativo em segundo plano. Antes de culpar a lista, tente de novo com o modo avião desligado e sem outros aplicativos pesados abertos.
+
+## As quatro horas no celular que você usa
+
+O [teste grátis de 4 horas](/teste-gratis) mostra o celular na sua rede, no horário em que você assiste. Peça no WhatsApp. Os dados chegam na hora.
+
+- Fique na rede em que pretende assistir, e não só no Wi-Fi mais forte da casa.
+- Abra um canal ao vivo por cerca de dez minutos, com download e videochamada pausados.
+- Abra um filme ou uma série on demand, que estão nos benefícios publicados.
+- Veja se a grade de programação aparece. Se não aparecer, o canal ainda pode tocar.
+- Confira se outro aparelho ficou com o mesmo login.
+
+Se a lista não abre, releia a mensagem: formato trocado, senha com letra parecida, link pela metade. Se o mesmo acesso abre em outro aparelho e falha só no celular, a lista está chegando. O ajuste é o player, a loja ou o sinal dali. Se a imagem congela em todo canal, siga o guia de [IPTV travando](/blog/iptv-travando).
+
+## Se o teste convencer
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O site não publica preço à parte para o celular: o Coffee Play cobra o período do acesso.
+
+Se precisar de ajuda, o WhatsApp do rodapé é (21) 98799-8271 e o e-mail é coffeeplayy@gmail.com, com atendimento 24 horas. Diga o modelo do celular, se é Android ou iPhone, qual player está usando, se o canal toca e se você já tentou em outra rede. Não mande a senha em grupo.
+
+Comece pelo celular que já está no seu bolso, com uma tela por vez, na rede que você vai usar. As quatro horas dizem se essa combinação serve, antes de um período mais longo.
+`,
+  },
 ];
