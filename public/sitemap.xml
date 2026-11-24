@@ -145,6 +145,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://coffeeplay.com.br/blog/iptv-na-tv-box</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://coffeeplay.com.br/apps</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
