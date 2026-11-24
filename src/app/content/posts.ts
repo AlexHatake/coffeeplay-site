@@ -974,4 +974,81 @@ Se precisar de ajuda, o WhatsApp do rodapé é (21) 98799-8271 e o e-mail é cof
 Comece pelo celular que já está no seu bolso, com uma tela por vez, na rede que você vai usar. As quatro horas dizem se essa combinação serve, antes de um período mais longo.
 `,
   },
+  {
+    kind: "article",
+    slug: "iptv-na-tv-box",
+    path: "/blog/iptv-na-tv-box",
+    title: "IPTV na TV Box: MXQ, Mi Box, Android TV e Roku | Coffee Play",
+    description:
+      "MXQ, Mi Box, Fire Stick e Roku são TV Boxes compatíveis com o Coffee Play. Veja o que checar na caixa, os 10 Mega, a tela única e o teste grátis de 4 horas.",
+    h1: "IPTV na TV Box: MXQ, Mi Box, Android TV e Roku",
+    eyebrow: "Guia",
+    intro:
+      "A TV Box é o caminho de quem tem uma TV comum, sem as lojas de aplicativos de uma Smart TV, ou de quem quer um aparelho só para o IPTV. No site do Coffee Play ela aparece com MXQ, Mi Box, Fire Stick e Roku, além do Android TV. Antes de comprar ou configurar uma caixa, vale saber o que o site afirma e o que ele deixa em aberto.",
+    related: [
+      { href: "/instalacao/android-tv-box", label: "Coffee Play no Android TV e TV Box" },
+      { href: "/blog/iptv-no-fire-stick", label: "IPTV no Fire Stick" },
+      relatedBase.aparelho,
+      relatedBase.teste,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## O que o site publica sobre a TV Box
+
+A página [Coffee Play no Android TV e TV Box](/instalacao/android-tv-box) coloca na lista de compatíveis o Android TV, o MXQ, o Mi Box, o Fire Stick e o Roku. A exigência é a mesma dos outros aparelhos: uma conexão de no mínimo 10 Mega. O acesso chega no WhatsApp ou no e-mail, de forma imediata e automática, depois do teste ou do pagamento.
+
+O site não publica modelo mínimo de caixa, versão de sistema, memória, espaço livre nem se a saída é 4K. Também não diz que uma caixa roda melhor do que outra. Quem promete esse tipo de ranking como se fosse regra do Coffee Play está inventando. O que existe é uma lista de nomes compatíveis e o suporte de segunda a segunda, 24 horas, para quando a caixa que você tem não aparece ali.
+
+## Quando a TV Box faz sentido
+
+Há três situações comuns. A primeira é a TV que não é inteligente: ligar uma caixa na entrada HDMI dá a ela uma tela de aplicativos. A segunda é a Smart TV cuja loja não tem o player que você queria, caso em que a caixa resolve sem trocar o televisor. A terceira é a TV mais antiga, em que o aplicativo que você quer simplesmente não existe.
+
+Se a sua Smart TV já abre a lista com folga, não precisa comprar uma caixa. O [teste grátis de 4 horas](/teste-gratis) na TV que você tem responde isso antes de gastar com hardware. A comparação entre os aparelhos está em [melhor aparelho para IPTV](/blog/melhor-aparelho-para-iptv), e o caminho da própria Smart TV está em [IPTV na Smart TV](/blog/iptv-na-smart-tv).
+
+## O acesso e o player
+
+O Coffee Play não impõe aplicativo e não publica um player oficial da marca. A mensagem do WhatsApp ou do e-mail traz um link de lista, ou então servidor, usuário e senha. Os dois formatos estão explicados em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes). O aplicativo só organiza a tela, e os campos vêm da mensagem.
+
+O [TiviMate](/apps/tivimate) é descrito no site como um player pensado para Android TV, Google TV e TV Box. O [IPTV Smarters Pro](/apps/iptv-smarters-pro) e o [XCIPTV](/apps/xciptv) também são usados em caixa, e os guias deles mostram os campos que cada tela pede. Nenhum dos três é app da marca, e algumas funções internas do TiviMate são pagas dentro do próprio aplicativo, sem relação com o plano do Coffee Play.
+
+Instale sempre pela loja da própria caixa, quando o player estiver lá. Arquivo solto ou APK de site desconhecido não faz parte do atendimento publicado, e este guia não indica nenhum. Se a loja não mostrar o player que você tinha em mente, chame o WhatsApp e diga o modelo da caixa antes de seguir um passo a passo achado fora do site.
+
+## Roku e o que o site não diz
+
+O Roku está na lista de TV Boxes compatíveis, mas o site não traz um passo a passo próprio nem cita um player específico para ele. O mesmo vale para caixas de marca desconhecida que vendem com o nome genérico de MXQ. O site não diz qual player abre em cada uma, e este guia também não vai chutar.
+
+O caminho seguro é o mesmo nos dois casos: pedir o teste, abrir a loja da caixa, ver quais players aparecem e conferir se algum aceita M3U ou Xtream. Se nenhum aparecer, o suporte diz o que fazer naquele modelo. Instalar pacotes de fora da loja não faz parte do atendimento publicado. Os [cuidados ao assinar](/blog/iptv-e-seguro) valem para o aparelho também.
+
+## Os 10 Mega na sala
+
+Dez mega é o piso informado, não uma garantia de 4K com a casa cheia. Meça ao lado da TV, e não ao lado do roteador. Muita caixa fica dentro de um rack fechado ou atrás do painel, e ali o Wi-Fi chega fraco mesmo com um plano largo no contrato. Tirar a caixa do canto morto, aproximar o roteador ou usar o cabo de rede, quando a caixa tem porta, costuma pesar mais do que trocar de player.
+
+O catálogo é o mesmo em qualquer caixa: mais de 90.000 conteúdos, canais em 4K, Full HD, HD e SD, filmes e séries on demand, guia de programação (EPG) e canais adultos opcionais. Canais em SD e HD pedem menos da rede do que um canal em 4K. Se o 4K corta e o HD segura, a rede está no limite da faixa mais pesada. A conta está em [qual internet para 4K](/blog/internet-para-iptv-4k), e o passo seguinte, se a imagem congela em todo canal, está em [IPTV travando](/blog/iptv-travando).
+
+## Uma tela por vez
+
+Os planos padrão são para 1 tela. A caixa da sala e o celular no sofá, com o mesmo login, são duas reproduções, e uma delas tende a cair. Parece defeito da caixa, mas é o limite descrito nas [dúvidas frequentes](/faq). Feche o aplicativo nos outros aparelhos, espere um minuto e deixe só a TV.
+
+Para a sala e o quarto funcionarem juntos, o site fala em preços especiais para pontos adicionais, sem publicar o valor. Pergunte no WhatsApp antes de assumir que um acesso cobre as duas caixas.
+
+## As quatro horas na caixa
+
+Peça o teste no WhatsApp. Os dados chegam na hora. Use a caixa na TV de verdade, no horário em que a família assiste.
+
+- Confira se a TV está na entrada HDMI certa e se o controle da caixa responde.
+- Abra um canal ao vivo por cerca de dez minutos, com a casa quieta.
+- Abra um filme ou uma série on demand, que estão nos benefícios publicados.
+- Veja se a grade de programação aparece. Se não aparecer, o canal ainda pode tocar.
+- Confira se outro aparelho ficou com o mesmo login.
+
+Se a lista não abre, releia a mensagem: formato trocado, senha com letra parecida, link pela metade. Se o mesmo acesso abre no celular e falha só na caixa, a lista está chegando. O ajuste é o player, a loja ou o sinal naquele ponto da sala.
+
+## Se o teste convencer
+
+Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00. Sem multa, sem fidelidade, com renovação manual. A tabela está em [planos](/planos). O pagamento informado é PIX, cartão de crédito ou boleto. O site não publica preço à parte para a TV Box: o Coffee Play cobra o período do acesso.
+
+Se precisar de ajuda, o WhatsApp do rodapé é (21) 98799-8271, com atendimento 24 horas. Diga a marca e o modelo da caixa, qual player está usando, se o canal toca e se você já tentou em outra rede. Não mande a senha em grupo.
+`,
+  },
 ];
