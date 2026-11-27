@@ -1051,4 +1051,88 @@ Os períodos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 
 Se precisar de ajuda, o WhatsApp do rodapé é (21) 98799-8271, com atendimento 24 horas. Diga a marca e o modelo da caixa, qual player está usando, se o canal toca e se você já tentou em outra rede. Não mande a senha em grupo.
 `,
   },
+  {
+    kind: "article",
+    slug: "iptv-smarters-tivimate-ou-xciptv",
+    path: "/blog/iptv-smarters-tivimate-ou-xciptv",
+    title: "IPTV Smarters, TiviMate ou XCIPTV: qual usar | Coffee Play",
+    description:
+      "IPTV Smarters, TiviMate ou XCIPTV? Compare em que aparelho cada um aparece, como entra o acesso em M3U ou Xtream e o que testar nas 4 horas grátis.",
+    h1: "IPTV Smarters, TiviMate ou XCIPTV: qual usar",
+    eyebrow: "Comparativo",
+    intro:
+      "Os três nomes aparecem lado a lado na página de aplicativos do Coffee Play. Nenhum deles é o app oficial do Coffee Play, e o site não obriga ninguém a usar um deles. A escolha depende primeiro do aparelho que você tem, depois do que está na loja dele e, por último, de qual tela a sua casa entende melhor.",
+    related: [
+      relatedBase.apps,
+      relatedBase.m3u,
+      relatedBase.aparelho,
+      relatedBase.teste,
+    ],
+    minWords: 800,
+    maxWords: 1500,
+    body: `
+## Resposta curta
+
+Em celular Android, comece olhando o [IPTV Smarters Pro](/apps/iptv-smarters-pro) ou o [XCIPTV](/apps/xciptv). Em Android TV, Google TV ou TV Box, o [TiviMate](/apps/tivimate) entra na comparação, ao lado dos outros dois. Se a loja do aparelho mostra só um deles, a decisão está praticamente tomada: teste esse antes de procurar outro.
+
+Isso não é um ranking. O Coffee Play não publica nota, medição de velocidade nem um vencedor entre os três. O player organiza a tela. O catálogo e o acesso vêm da mensagem que você recebe no WhatsApp ou no e-mail, e trocar de aplicativo não muda o plano.
+
+## IPTV Smarters Pro
+
+O guia do site descreve o Smarters como um player usado em celular Android, TV Box e alguns outros aparelhos. Ele aparece na página de [apps](/apps) porque a tela pede exatamente os dois formatos mais comuns de lista: login Xtream ou endereço M3U.
+
+Com servidor, usuário e senha, abra a opção de login, Xtream Codes ou API. O nome da playlist é livre, só para você reconhecer depois. Com um link único, procure adicionar playlist, lista ou URL M3U e cole o endereço inteiro. Quando a lista traz a grade, o guia de programação costuma ficar na área de canais ao vivo.
+
+Faz sentido começar por ele quando a casa alterna entre celular Android e caixa, e a mesma pessoa quer reconhecer os campos nos dois aparelhos. O plano padrão continua sendo de 1 tela, então os dois não tocam juntos com o mesmo login.
+
+## TiviMate
+
+O TiviMate é pensado para Android TV, Google TV e TV Box, e muita gente também o usa no Fire Stick. Ao adicionar a playlist, escolha Xtream Codes se a mensagem trouxer os três dados, ou M3U se trouxer um link. O guia de programação depende da lista e da opção ligada no próprio player.
+
+Há dois limites para saber antes. Smart TV Samsung, LG ou Sony sem Android pode não ter o TiviMate na loja. E algumas funções internas dele são pagas dentro do aplicativo. O Coffee Play não publica esse valor, que não faz parte do plano. Dá para adicionar a lista e assistir sem tratar o extra como obrigatório.
+
+Ele entra na lista de candidatos quando o aparelho principal é a TV da sala, usada com controle remoto. Se a sua televisão já reproduz bem com outro player, não compre uma caixa só por causa deste.
+
+## XCIPTV
+
+O XCIPTV é mais um player de lista, comum em TV Box e celular Android. Aceita o trio de URL do servidor, usuário e senha, ou um link único de playlist. Use o modo que a mensagem indicar. Colar o link M3U no campo de senha não funciona, e o erro parece acesso vencido.
+
+A recomendação do site é usar o XCIPTV só se ele já estiver na loja do seu aparelho. O Coffee Play não distribui o arquivo de instalação. Se a grade de programação não aparecer, procure EPG, guia ou horário nas configurações. Os canais podem estar funcionando mesmo sem ela.
+
+## Escolha pelo aparelho
+
+- Celular Android: Smarters ou XCIPTV. Veja também [IPTV no celular](/blog/iptv-no-celular).
+- Android TV, Google TV e TV Box: TiviMate, Smarters ou XCIPTV, conforme a loja da caixa. O caminho está em [IPTV na TV Box](/blog/iptv-na-tv-box).
+- Fire Stick: confira o que a loja oferece. Os detalhes estão em [IPTV no Fire Stick](/blog/iptv-no-fire-stick).
+- Smart TV sem Android: o TiviMate pode não existir ali. Use um player da própria loja que aceite o seu formato, como explica [IPTV na Smart TV](/blog/iptv-na-smart-tv).
+- iPhone, iPad e computador: os guias dos três apps no site não trazem instruções para eles. Peça orientação no WhatsApp antes de instalar qualquer coisa.
+
+A lista de aparelhos compatíveis com o serviço está em [instalação por aparelho](/instalacao). Compatibilidade do Coffee Play com um aparelho não significa que os três players existam na loja dele.
+
+## O acesso entra do mesmo jeito
+
+A troca de aplicativo não pede um acesso novo por si só. O que muda é o nome dos botões. Um link longo vai na opção de playlist ou M3U. Servidor, usuário e senha vão na opção Xtream ou login. Copie direto da mensagem, sem espaço nas pontas e sem completar um link cortado. A diferença entre os dois formatos está em [M3U ou Xtream Codes](/blog/m3u-ou-xtream-codes).
+
+Instale sempre pela loja do próprio aparelho. Arquivo solto ou APK de site desconhecido não faz parte do atendimento publicado, e este guia não indica nenhum. Servidor genérico ou login de demonstração achado em tutorial também não abre o Coffee Play. Os [cuidados ao assinar](/blog/iptv-e-seguro) explicam por que desconfiar.
+
+## Como comparar nas 4 horas
+
+O [teste grátis de 4 horas](/teste-gratis) é tempo suficiente para experimentar mais de um player, desde que um de cada vez. Faça o mesmo roteiro nos dois para a comparação ser justa:
+
+- Adicione o acesso e veja se a lista carrega sem erro.
+- Abra o mesmo canal ao vivo por alguns minutos, no mesmo cômodo.
+- Abra um filme ou uma série on demand.
+- Procure o guia de programação e confira o horário.
+- Passe o controle para quem mais usa a TV e veja se a pessoa encontra um canal sozinha.
+- Feche o primeiro player antes de abrir o segundo.
+
+Se a imagem trava nos dois, no mesmo canal e horário, desconfie da rede antes do aplicativo. O mínimo publicado é de 10 Mega, medido perto do aparelho. O passo a passo está em [IPTV travando](/blog/iptv-travando). Se só um dos players falha, revise o formato escolhido e os campos dele.
+
+## Depois da escolha
+
+Os planos publicados são mensal R$ 24,90, trimestral R$ 69,90, semestral R$ 130,00 e anual R$ 250,00, sem multa, sem fidelidade e com renovação manual. A tabela está em [planos](/planos), e o pagamento pode ser feito por PIX, cartão de crédito ou boleto. Telas adicionais têm preços especiais, não publicados no site.
+
+O suporte atende no WhatsApp (21) 98799-8271, 24 horas. Diga o modelo do aparelho, qual dos três players está usando, o formato que recebeu e em que passo parou. Não envie a senha em grupo nem em print.
+`,
+  },
 ];
